@@ -1,0 +1,6 @@
+{
+  "name": "Velobike Telegram bot API",
+  "description": "Velobike.ru Telegram bot API REST service",
+  "website": "http://shuvalov.io",
+  "success_url": "/nearest/55.67/37.50"
+}
