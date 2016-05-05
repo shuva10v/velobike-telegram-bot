@@ -3,8 +3,7 @@ import akka.event.{Logging, LoggingAdapter}
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.client.RequestBuilding
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
-import akka.http.scaladsl.model.{HttpRequest, HttpResponse}
-import akka.http.scaladsl.model.StatusCodes._
+import akka.http.scaladsl.model.{HttpRequest, HttpResponse, StatusCodes}
 import akka.http.scaladsl.server.Directives._
 import akka.stream.scaladsl.{Flow, Sink, Source}
 import akka.stream.{ActorMaterializer, Materializer}
@@ -56,18 +55,16 @@ trait Service extends Protocols {
         path(RestPath) { botToken =>
           logger.info(s"Webhook token ${botToken.toString()}")
           entity(as[Update]) { update =>
-            complete {
-              update.message.location match {
-                case Some(location) =>
-                  logger.info(s"Got request with text ${location.latitude} ${location.longitude}")
-                  val venue = SendVenue(update.message.chat.id, location.latitude, location.longitude, "title", "addr")
-                  sendMessage(botToken.toString(), venue)
-                  complete("Processing")
-                  OK
-                case None =>
-                  complete("Location not found!")
-                  OK
-              }
+            update.message.location match {
+              case Some(location) =>
+                logger.info(s"Got request with text ${location.latitude} ${location.longitude}")
+                val venue = SendVenue(update.message.chat.id, location.latitude, location.longitude, "title", "addr")
+                sendMessage(botToken.toString(), venue)
+                logger.info("Processing finished")
+                complete(StatusCodes.OK)
+              case None =>
+                logger.warning("Location not found")
+                complete(StatusCodes.OK)
             }
           }
         }
