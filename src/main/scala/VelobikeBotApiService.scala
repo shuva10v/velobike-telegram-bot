@@ -1,24 +1,23 @@
 import akka.actor.ActorSystem
 import akka.event.{Logging, LoggingAdapter}
 import akka.http.scaladsl.Http
-import akka.http.scaladsl.client.RequestBuilding
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
-import akka.http.scaladsl.model.{HttpRequest, HttpResponse, StatusCodes}
+import akka.http.scaladsl.model._
 import akka.http.scaladsl.server.Directives._
-import akka.stream.scaladsl.{Flow, Sink, Source}
 import akka.stream.{ActorMaterializer, Materializer}
 import com.typesafe.config.{Config, ConfigFactory}
-import spray.json.DefaultJsonProtocol
+import spray.json.{DefaultJsonProtocol, _}
 
-import scala.concurrent.ExecutionContextExecutor
+import scala.concurrent.{ExecutionContextExecutor, Future}
+import scala.util.{Failure, Success}
 
 case class Location(latitude: Double, longitude: Double)
 
-case class User(id: Int, first_name: String, last_name: String, username: String)
+case class User(id: Int, first_name: String, last_name: Option[String], username: Option[String])
 
 case class Chat(id: Int)
 
-case class Message(message_id: Int, chat: Chat, text: String, from: User, location: Option[Location])
+case class Message(message_id: Int, chat: Chat, text: Option[String], from: User, location: Option[Location])
 
 case class Update(update_id: Int, message: Message)
 
@@ -39,12 +38,10 @@ trait Service extends Protocols {
   implicit def executor: ExecutionContextExecutor
   implicit val materializer: Materializer
 
-  lazy val telegramConnectionFlow: Flow[HttpRequest, HttpResponse, Any] =
-    Http().outgoingConnection(config.getString("telegram.api.host"), config.getInt("telegram.api.port"))
-
-  private def sendMessage(botToken: String, venue: SendVenue): Unit = {
-    Source.single(RequestBuilding.Post(s"/bot$botToken/sendMessage", venue))
-      .via(telegramConnectionFlow).runWith(Sink.head)
+  private def sendMessage(botToken: String, venue: SendVenue): Future[HttpResponse] = {
+    Http().singleRequest(HttpRequest(HttpMethods.POST,
+      s"https://api.telegram.org/bot$botToken/sendVenue",
+      entity = HttpEntity(ContentTypes.`application/json`, venue.toJson.prettyPrint)))
   }
 
   def config: Config
@@ -59,7 +56,14 @@ trait Service extends Protocols {
               case Some(location) =>
                 logger.info(s"Got request with text ${location.latitude} ${location.longitude}")
                 val venue = SendVenue(update.message.chat.id, location.latitude, location.longitude, "title", "addr")
-                sendMessage(botToken.toString(), venue)
+                sendMessage(botToken.toString(), venue).onComplete {
+                  case Success(httpResponse) =>
+                    logger.info(s"Message sent ok ${httpResponse.status}")
+                    complete(StatusCodes.OK)
+                  case Failure(e) =>
+                    logger.info(s"Message sent error", e)
+                    complete(StatusCodes.NotFound)
+                }
                 logger.info("Processing finished")
                 complete(StatusCodes.OK)
               case None =>
