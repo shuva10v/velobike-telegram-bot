@@ -1,5 +1,6 @@
 package io.shuvalov
 
+import akka.event.Logging
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.testkit.ScalatestRouteTest
 import akka.stream.scaladsl.Flow
@@ -12,6 +13,8 @@ import scala.io.Source
 
 class VelobikeNearestLocationServiceSpec extends FlatSpec with Matchers with ScalatestRouteTest
 	with NearestLocationService {
+	override val logger = Logging(system, getClass)
+
 	  override lazy val connectionFlow = Flow[HttpRequest].map { request =>
 			HttpResponse(status = StatusCodes.OK, entity =
 				HttpEntity(ContentTypes.`application/json`,

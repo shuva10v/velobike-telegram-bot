@@ -42,10 +42,10 @@ trait Service extends Protocols with NearestLocationService{
   implicit def executor: ExecutionContextExecutor
   implicit val materializer: Materializer
 
-  private val messageServerError = config.getString("messages.server-error")
-  private val messageLongDistance = config.getString("messages.long-distance")
-  private val messageUsage = config.getString("messages.usage")
-  private val messageNoParkings = config.getString("no-parkings")
+  private val messageServerError = "messages.server-error"
+  private val messageLongDistance = "messages.long-distance"
+  private val messageUsage = "messages.usage"
+  private val messageNoParkings = "no-parkings"
 
 
   private def sendVenue(botToken: String, venue: SendVenue): Future[HttpResponse] = {
@@ -64,6 +64,10 @@ trait Service extends Protocols with NearestLocationService{
       entity = HttpEntity(ContentTypes.`application/json`, message.toJson.prettyPrint)))
   }
 
+  private def message(tag: String): String = {
+    config.getString(tag)
+  }
+
   def config: Config
   val logger: LoggingAdapter
   val routes = {
@@ -79,9 +83,9 @@ trait Service extends Protocols with NearestLocationService{
                 nearest(position).onSuccess {
                   case Left(error) => {
                     error match {
-                      case ServiceError => sendReply(token, update, messageServerError)
-                      case LongDistance => sendReply(token, update, messageLongDistance)
-                      case NoParkingsAvailable => sendReply(token, update, messageNoParkings)
+                      case ServiceError => sendReply(token, update, message(messageServerError))
+                      case LongDistance => sendReply(token, update, message(messageLongDistance))
+                      case NoParkingsAvailable => sendReply(token, update, message(messageNoParkings))
                     }
                   }
                   case Right(parking) =>
@@ -92,7 +96,7 @@ trait Service extends Protocols with NearestLocationService{
                 complete(StatusCodes.OK)
               case None =>
                 logger.warning("Location not found")
-                sendReply(token, update, messageUsage)
+                sendReply(token, update, message(messageUsage))
                 complete(StatusCodes.OK)
             }
           }

@@ -3,7 +3,7 @@ package io.shuvalov
 import java.io.IOException
 
 import akka.actor.ActorSystem
-import akka.event.Logging
+import akka.event.LoggingAdapter
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.client.RequestBuilding
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
@@ -44,7 +44,7 @@ trait NearestLocationService extends VelobikeJsonProtocol {
 	implicit val system: ActorSystem
 	implicit def executor: ExecutionContextExecutor
 	implicit val materializer: Materializer
-	private val logger = Logging(system, getClass)
+	implicit val logger: LoggingAdapter
 
 	lazy val connectionFlow: Flow[HttpRequest, HttpResponse, Any] =
 		Http().outgoingConnection("http://velobike.ru/proxy/parkings/")
