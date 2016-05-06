@@ -92,7 +92,7 @@ trait Service extends Protocols with NearestLocationService{
                       }
                       case Right(parking) =>
                         val venue = SendVenue(update.message.chat.id, parking.Position.Lat, parking.Position.Lon,
-                          parking.Id, parking.Address)
+                          s"${parking.Id} - ${parking.FreePlaces}/${parking.TotalPlaces} bikes", parking.Address)
                         sendVenue(token, venue)
                     }
                   case Failure(e) => {
