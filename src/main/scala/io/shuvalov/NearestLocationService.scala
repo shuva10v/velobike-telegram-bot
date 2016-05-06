@@ -77,7 +77,6 @@ trait NearestLocationService extends VelobikeJsonProtocol {
         Left(NoParkingsAvailable)
       } else {
         val (minDistance, parking) = sorted.head
-        logger.info(s"${minDistance}")
         if (minDistance > MAX_DISTANCE_FROM_PARKING) {
           Left(LongDistance)
         } else {

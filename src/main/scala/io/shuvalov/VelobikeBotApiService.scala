@@ -52,6 +52,7 @@ trait Service extends Protocols with NearestLocationService {
 
 
   private def sendVenue(botToken: String, venue: SendVenue): Future[HttpResponse] = {
+    logger.info(venue.toJson.compactPrint)
     Http().singleRequest(HttpRequest(HttpMethods.POST,
       s"https://api.telegram.org/bot$botToken/sendVenue",
       entity = HttpEntity(ContentTypes.`application/json`, venue.toJson.prettyPrint)))
@@ -62,6 +63,7 @@ trait Service extends Protocols with NearestLocationService {
   }
 
   private def sendMessage(botToken: String, message: SendMessage): Future[HttpResponse] = {
+    logger.info(message.toJson.compactPrint)
     Http().singleRequest(HttpRequest(HttpMethods.POST,
       s"https://api.telegram.org/bot$botToken/sendMessage",
       entity = HttpEntity(ContentTypes.`application/json`, message.toJson.prettyPrint)))
@@ -83,7 +85,7 @@ trait Service extends Protocols with NearestLocationService {
             update.message.location match {
               case Some(location) =>
                 val position = Position(location.latitude, location.longitude)
-                logger.info(s"Got request with text ${position.Lat} ${position.Lon}")
+                logger.info(update.toJson.compactPrint)
                 nearest(position).onComplete {
                   case Success(result) =>
                     result match {
