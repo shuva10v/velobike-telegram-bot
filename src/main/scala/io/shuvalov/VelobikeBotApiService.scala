@@ -38,9 +38,11 @@ trait Protocols extends DefaultJsonProtocol with SprayJsonSupport {
 }
 
 
-trait Service extends Protocols with NearestLocationService{
+trait Service extends Protocols with NearestLocationService {
   implicit val system: ActorSystem
+
   implicit def executor: ExecutionContextExecutor
+
   implicit val materializer: Materializer
 
   private val messageServerError = "messages.server-error"
@@ -70,6 +72,7 @@ trait Service extends Protocols with NearestLocationService{
   }
 
   def config: Config
+
   val logger: LoggingAdapter
   val routes = {
     (pathPrefix("webhook") & post) {
@@ -85,11 +88,11 @@ trait Service extends Protocols with NearestLocationService{
                   case Success(result) =>
                     result match {
                       case Left(error) =>
-                      error match {
-                        case ServiceError => sendReply(token, update, message(messageServerError))
-                        case LongDistance => sendReply(token, update, message(messageLongDistance))
-                        case NoParkingsAvailable => sendReply(token, update, message(messageNoParkings))
-                      }
+                        error match {
+                          case ServiceError => sendReply(token, update, message(messageServerError))
+                          case LongDistance => sendReply(token, update, message(messageLongDistance))
+                          case NoParkingsAvailable => sendReply(token, update, message(messageNoParkings))
+                        }
                       case Right(parking) =>
                         val venue = SendVenue(update.message.chat.id, parking.Position.Lat, parking.Position.Lon,
                           s"${parking.Id} - ${parking.FreePlaces}/${parking.TotalPlaces} bikes", parking.Address)
