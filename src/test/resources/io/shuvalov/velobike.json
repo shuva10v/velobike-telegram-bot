@@ -1,0 +1,3139 @@
+{
+    "Items": [
+        {
+            "Address": "415 - \u0443\u043b. \u0421\u0443\u0449\u0451\u0432\u0441\u043a\u0438\u0439 \u0412\u0430\u043b, \u0434.2",
+            "FreePlaces": 12,
+            "Id": "0415",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7914268,
+                "Lon": 37.5905396
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "422 - \u0443\u043b. \u0421\u043e\u0432\u0435\u0442\u0441\u043a\u043e\u0439 \u0410\u0440\u043c\u0438\u0438, \u0434.17/52",
+            "FreePlaces": 5,
+            "Id": "0422",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.792512,
+                "Lon": 37.6158903
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "440 - \u043f\u0440-\u0442 \u041c\u0438\u0440\u0430, \u0434.40",
+            "FreePlaces": 9,
+            "Id": "0440",
+            "IsLocked": true,
+            "Position": {
+                "Lat": 55.7804054,
+                "Lon": 37.6334722
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "462 - \u0420\u044f\u0437\u0430\u043d\u0441\u043a\u0438\u0439 \u043f\u0440., \u041a\u043e\u043c\u0441\u043e\u043c\u043e\u043b\u044c\u0441\u043a\u0430\u044f \u043f\u043b., \u0434.2",
+            "FreePlaces": 9,
+            "Id": "0462",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7723539,
+                "Lon": 37.6548139
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "124 - \u0443\u043b. \u0421\u0430\u0434\u043e\u0432\u0430\u044f-\u0421\u0443\u0445\u0430\u0440\u0435\u0432\u0441\u043a\u0430\u044f, \u0434.5",
+            "FreePlaces": 9,
+            "Id": "0124",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7742009,
+                "Lon": 37.6214093
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "470 - \u0443\u043b. \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u043a\u0430 \u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0430, \u0434.8\u0410",
+            "FreePlaces": 5,
+            "Id": "0470",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8217153,
+                "Lon": 37.623526
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "471 - \u0443\u043b. \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u043a\u0430 \u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0430, \u0434.12\u0411",
+            "FreePlaces": 1,
+            "Id": "0471",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8218255,
+                "Lon": 37.6095579
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "472 - \u0417\u0432\u0451\u0437\u0434\u043d\u044b\u0439 \u0431-\u0440, \u0434.18/1",
+            "FreePlaces": 8,
+            "Id": "0472",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8154706,
+                "Lon": 37.6299313
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "444 - \u043f\u0440-\u0442 \u041c\u0438\u0440\u0430, \u0434.111",
+            "FreePlaces": 5,
+            "Id": "0444",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8195275,
+                "Lon": 37.6393391
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "446 - \u043f\u0440-\u0442 \u041c\u0438\u0440\u0430, \u0434.163",
+            "FreePlaces": 3,
+            "Id": "0446",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8339685,
+                "Lon": 37.6541501
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "450 - \u0443\u043b. \u0421\u0435\u0440\u0433\u0435\u044f \u042d\u0439\u0437\u0435\u043d\u0448\u0442\u0435\u0439\u043d\u0430, \u0434.8",
+            "FreePlaces": 4,
+            "Id": "0450",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8334316,
+                "Lon": 37.6374584
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "464 - \u0443\u043b. \u0411\u043e\u0442\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0430\u044f, \u0434. 4, \u0441\u0442\u0440. 6",
+            "FreePlaces": 4,
+            "Id": "0464",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8302838,
+                "Lon": 37.6010653
+            },
+            "TotalPlaces": 21
+        },
+        {
+            "Address": "466 - \u041f\u0440\u043e\u0434\u043e\u043b\u044c\u043d\u044b\u0439 \u043f\u0440-\u0434 (\u0443 \u0433\u043b\u0430\u0432\u043d\u043e\u0433\u043e \u0432\u0445\u043e\u0434\u0430 \u0412\u0414\u041d\u0425)",
+            "FreePlaces": 12,
+            "Id": "0466",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.825363,
+                "Lon": 37.6391911
+            },
+            "TotalPlaces": 36
+        },
+        {
+            "Address": "467 - \u0422\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f \u0412\u0414\u041d\u0425 (\u0441\u043b\u0435\u0432\u0430 \u043e\u0442 \u0433\u043b\u0430\u0432\u043d\u043e\u0433\u043e \u0432\u0445\u043e\u0434\u0430)",
+            "FreePlaces": 2,
+            "Id": "0467",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8264433,
+                "Lon": 37.6354265
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "468 - \u0422\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f \u0412\u0414\u041d\u0425 (\u043a\u0430\u0444\u0435 \u0428\u0430\u0448\u043b\u044b\u0447\u043e\u043a)",
+            "FreePlaces": 10,
+            "Id": "0468",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8304687,
+                "Lon": 37.6176703
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "469 - \u0422\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f \u0412\u0414\u041d\u0425 (\u0443 \u043f\u0440\u0443\u0434\u043e\u0432)",
+            "FreePlaces": 5,
+            "Id": "0469",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8378105,
+                "Lon": 37.6181316
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "481 - \u0443\u043b. \u041c\u0438\u043b\u0430\u0448\u0435\u043d\u043a\u043e\u0432\u0430, \u0434.12\u0414",
+            "FreePlaces": 4,
+            "Id": "0481",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8278585,
+                "Lon": 37.5805768
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "482 - \u0443\u043b. \u0420\u0443\u0441\u0442\u0430\u0432\u0435\u043b\u0438, \u0434.12/13",
+            "FreePlaces": 4,
+            "Id": "0482",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8133394,
+                "Lon": 37.5942708
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "397 - \u043f\u0440-\u0442 60-\u043b\u0435\u0442\u0438\u044f \u041e\u043a\u0442\u044f\u0431\u0440\u044f, \u0434. 31/18, \u043a.1, \u0441\u0442\u0440.2",
+            "FreePlaces": 10,
+            "Id": "0397",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6880714,
+                "Lon": 37.5743384
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "322 - \u041b\u0435\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.99",
+            "FreePlaces": 3,
+            "Id": "0322",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6705635,
+                "Lon": 37.5201768
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "394 - \u0443\u043b. \u041f\u0440\u043e\u0444\u0441\u043e\u044e\u0437\u043d\u0430\u044f, \u0434.21/51",
+            "FreePlaces": 0,
+            "Id": "0394",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6771438,
+                "Lon": 37.5629419
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "252 - \u0443\u043b. \u041b\u044c\u0432\u0430 \u0422\u043e\u043b\u0441\u0442\u043e\u0433\u043e (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.21)",
+            "FreePlaces": 3,
+            "Id": "0252",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7344493,
+                "Lon": 37.5862313
+            },
+            "TotalPlaces": 8
+        },
+        {
+            "Address": "473 - \u0443\u043b. \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u043a\u0430 \u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0430, \u0434.12\u0410",
+            "FreePlaces": 7,
+            "Id": "0473",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8218703,
+                "Lon": 37.6042362
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "001 - \u0413\u043e\u0433\u043e\u043b\u0435\u0432\u0441\u043a\u0438\u0439 \u0431-\u0440 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.3, \u0441\u0442.\u043c.\u041a\u0440\u043e\u043f\u043e\u0442\u043a\u0438\u043d\u0441\u043a\u0430\u044f)",
+            "FreePlaces": 6,
+            "Id": "0001",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.74529,
+                "Lon": 37.600833
+            },
+            "TotalPlaces": 24
+        },
+        {
+            "Address": "008 - \u0422\u0432\u0435\u0440\u0441\u043a\u043e\u0439 \u0431-\u0440 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.17, \u0441\u0442\u0440.1)",
+            "FreePlaces": 14,
+            "Id": "0008",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.761072,
+                "Lon": 37.601473
+            },
+            "TotalPlaces": 14
+        },
+        {
+            "Address": "009 - \u0422\u0432\u0435\u0440\u0441\u043a\u043e\u0439 \u0431-\u0440 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.28)",
+            "FreePlaces": 12,
+            "Id": "0009",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.76461,
+                "Lon": 37.6051230556
+            },
+            "TotalPlaces": 16
+        },
+        {
+            "Address": "010 - \u0421\u0442\u0440\u0430\u0441\u0442\u043d\u043e\u0439 \u0431-\u0440 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.8\u0410)",
+            "FreePlaces": 9,
+            "Id": "0010",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7667105556,
+                "Lon": 37.6094894444
+            },
+            "TotalPlaces": 10
+        },
+        {
+            "Address": "011 - \u0421\u0442\u0440\u0430\u0441\u0442\u043d\u043e\u0439 \u0431-\u0440 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.16)",
+            "FreePlaces": 3,
+            "Id": "0011",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.768066,
+                "Lon": 37.613347
+            },
+            "TotalPlaces": 8
+        },
+        {
+            "Address": "012 - \u0426\u0432\u0435\u0442\u043d\u043e\u0439 \u0431-\u0440 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.1, \u0441\u0442.\u043c.\u0422\u0440\u0443\u0431\u043d\u0430\u044f)",
+            "FreePlaces": 1,
+            "Id": "0012",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.768003,
+                "Lon": 37.621486
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "016 - \u0427\u0438\u0441\u0442\u043e\u043f\u0440\u0443\u0434\u043d\u044b\u0439 \u0431-\u0440 (\u0441\u0442.\u043c.\u0427\u0438\u0441\u0442\u044b\u0435 \u043f\u0440\u0443\u0434\u044b)",
+            "FreePlaces": 7,
+            "Id": "0016",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7647186111,
+                "Lon": 37.6391413889
+            },
+            "TotalPlaces": 10
+        },
+        {
+            "Address": "017 - \u0427\u0438\u0441\u0442\u043e\u043f\u0440\u0443\u0434\u043d\u044b\u0439 \u0431-\u0440 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432\u00a0 \u0434.8, \u0441\u0442\u0440.1)",
+            "FreePlaces": 4,
+            "Id": "0017",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.763247,
+                "Lon": 37.641671
+            },
+            "TotalPlaces": 8
+        },
+        {
+            "Address": "018 - \u0427\u0438\u0441\u0442\u043e\u043f\u0440\u0443\u0434\u043d\u044b\u0439 \u0431-\u0440 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.12, \u0441\u0442\u0440.1)",
+            "FreePlaces": 5,
+            "Id": "0018",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.760381,
+                "Lon": 37.645665
+            },
+            "TotalPlaces": 14
+        },
+        {
+            "Address": "019 - \u041f\u043e\u043a\u0440\u043e\u0432\u0441\u043a\u0438\u0439 \u0431-\u0440 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.8, \u0441\u0442\u0440.1)",
+            "FreePlaces": 3,
+            "Id": "0019",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.757313,
+                "Lon": 37.647211
+            },
+            "TotalPlaces": 8
+        },
+        {
+            "Address": "029 - \u0443\u043b. \u0422\u0432\u0435\u0440\u0441\u043a\u0430\u044f, \u0434.8",
+            "FreePlaces": 0,
+            "Id": "0029",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.762079,
+                "Lon": 37.60962
+            },
+            "TotalPlaces": 20
+        },
+        {
+            "Address": "033 - \u0421\u0442\u043e\u043b\u0435\u0448\u043d\u0438\u043a\u043e\u0432 \u043f\u0435\u0440. (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.11)",
+            "FreePlaces": 1,
+            "Id": "0033",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.763407,
+                "Lon": 37.61731
+            },
+            "TotalPlaces": 10
+        },
+        {
+            "Address": "206 - \u0424\u0440\u0443\u043d\u0437\u0435\u043d\u0441\u043a\u0430\u044f \u043d\u0430\u0431. (\u043f\u0435\u0440\u0435\u0441\u0435\u0447. \u0441 3-\u0435\u0439 \u0424\u0440\u0443\u043d\u0437\u0435\u043d\u0441\u043a\u043e\u0439 \u0443\u043b.)",
+            "FreePlaces": 5,
+            "Id": "0206",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7191972222,
+                "Lon": 37.5834861111
+            },
+            "TotalPlaces": 10
+        },
+        {
+            "Address": "207 - \u0424\u0440\u0443\u043d\u0437\u0435\u043d\u0441\u043a\u0430\u044f \u043d\u0430\u0431, \u0434. 54 (\u043f\u0435\u0440\u0435\u0441\u0435\u0447. \u0441 \u0443\u043b. \u0425\u0430\u043c\u043e\u0432\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0412\u0430\u043b)",
+            "FreePlaces": 5,
+            "Id": "0207",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7155083333,
+                "Lon": 37.5779888889
+            },
+            "TotalPlaces": 16
+        },
+        {
+            "Address": "209 - \u0441\u0442.\u043c.\u0421\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u0430\u044f (\u0432\u044b\u0445\u043e\u0434 \u043a \u0425\u0430\u043c\u043e\u0432\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u043c\u0443 \u0412\u0430\u043b\u0443)",
+            "FreePlaces": 12,
+            "Id": "0209",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.721839,
+                "Lon": 37.561797
+            },
+            "TotalPlaces": 24
+        },
+        {
+            "Address": "002 - \u0413\u043e\u0433\u043e\u043b\u0435\u0432\u0441\u043a\u0438\u0439 \u0431-\u0440 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.17, \u0441\u0442\u0440.1)",
+            "FreePlaces": 5,
+            "Id": "0002",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.748696,
+                "Lon": 37.600224
+            },
+            "TotalPlaces": 14
+        },
+        {
+            "Address": "003 - \u0413\u043e\u0433\u043e\u043b\u0435\u0432\u0441\u043a\u0438\u0439 \u0431-\u0440 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.33)",
+            "FreePlaces": 0,
+            "Id": "0003",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7509180556,
+                "Lon": 37.6005927778
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "005 - \u041d\u0438\u043a\u0438\u0442\u0441\u043a\u0438\u0439 \u0431-\u0440 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.11/12, \u0441\u0442\u0440.3)",
+            "FreePlaces": 4,
+            "Id": "0005",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.754924,
+                "Lon": 37.600472
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "006 - \u041d\u0438\u043a\u0438\u0442\u0441\u043a\u0438\u0439 \u0431-\u0440 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.23/14/9)",
+            "FreePlaces": 4,
+            "Id": "0006",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.757163,
+                "Lon": 37.598667
+            },
+            "TotalPlaces": 8
+        },
+        {
+            "Address": "021 - \u041f\u043e\u043a\u0440\u043e\u0432\u0441\u043a\u0438\u0439 \u0431-\u0440 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.18, \u0441\u0442\u0440.18)",
+            "FreePlaces": 7,
+            "Id": "0021",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7533283333,
+                "Lon": 37.6473502778
+            },
+            "TotalPlaces": 8
+        },
+        {
+            "Address": "015 - \u0422\u0443\u0440\u0433\u0435\u043d\u0435\u0432\u0441\u043a\u0430\u044f \u043f\u043b. (\u0441\u0442.\u043c.\u0422\u0443\u0440\u0433\u0435\u043d\u0435\u0432\u0441\u043a\u0430\u044f)",
+            "FreePlaces": 8,
+            "Id": "0015",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.765334,
+                "Lon": 37.636329
+            },
+            "TotalPlaces": 8
+        },
+        {
+            "Address": "030 - \u041a\u0430\u043c\u0435\u0440\u0433\u0435\u0440\u0441\u043a\u0438\u0439 \u043f\u0435\u0440., \u0434.4",
+            "FreePlaces": 8,
+            "Id": "0030",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.759361,
+                "Lon": 37.612442
+            },
+            "TotalPlaces": 14
+        },
+        {
+            "Address": "035 - \u0443\u043b. \u041a\u0443\u0437\u043d\u0435\u0446\u043a\u0438\u0439 \u043c\u043e\u0441\u0442, \u0434.13/9, \u0441\u0442\u0440.1",
+            "FreePlaces": 5,
+            "Id": "0035",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.762217,
+                "Lon": 37.623177
+            },
+            "TotalPlaces": 18
+        },
+        {
+            "Address": "041 - \u041b\u0443\u0431\u044f\u043d\u0441\u043a\u0438\u0439 \u043f\u0440., \u0434. 27/1, \u0441\u0442\u0440.1 (\u0441\u0442.\u043c.\u041a\u0438\u0442\u0430\u0439-\u0433\u043e\u0440\u043e\u0434)",
+            "FreePlaces": 0,
+            "Id": "0041",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.753925,
+                "Lon": 37.6351055556
+            },
+            "TotalPlaces": 8
+        },
+        {
+            "Address": "013 - \u043f\u043b. \u0421\u0440\u0435\u0442\u0435\u043d\u0441\u043a\u0438\u0435 \u0432\u043e\u0440\u043e\u0442\u0430 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.1)",
+            "FreePlaces": 4,
+            "Id": "0013",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7666132223,
+                "Lon": 37.6316177845
+            },
+            "TotalPlaces": 10
+        },
+        {
+            "Address": "039 - \u0443\u043b. \u041f\u043e\u043a\u0440\u043e\u0432\u043a\u0430, \u0434.7/9-11",
+            "FreePlaces": 21,
+            "Id": "0039",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.759038,
+                "Lon": 37.642574
+            },
+            "TotalPlaces": 22
+        },
+        {
+            "Address": "201 - \u0424\u0440\u0443\u043d\u0437\u0435\u043d\u0441\u043a\u0430\u044f \u043d\u0430\u0431. (\u043f\u0435\u0440\u0435\u0441\u0435\u0447. \u0441 1-\u043e\u0439 \u0424\u0440\u0443\u043d\u0437\u0435\u043d\u0441\u043a\u043e\u0439 \u0443\u043b.)",
+            "FreePlaces": 1,
+            "Id": "0201",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7257472222,
+                "Lon": 37.5898638889
+            },
+            "TotalPlaces": 22
+        },
+        {
+            "Address": "202 - \u041a\u043e\u043c\u0441\u043e\u043c\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442 (\u043f\u0435\u0440\u0435\u0441\u0435\u0447. \u0441 1-\u043e\u0439 \u0424\u0440\u0443\u043d\u0437\u0435\u043d\u0441\u043a\u043e\u0439 \u0443\u043b.)",
+            "FreePlaces": 3,
+            "Id": "0202",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.727509,
+                "Lon": 37.583821
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "203 - \u041a\u043e\u043c\u0441\u043e\u043c\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442 (\u043f\u0435\u0440\u0435\u0441\u0435\u0447. \u0441\u043e 2-\u043e\u0439 \u0424\u0440\u0443\u043d\u0437\u0435\u043d\u0441\u043a\u043e\u0439 \u0443\u043b.)",
+            "FreePlaces": 3,
+            "Id": "0203",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.724242,
+                "Lon": 37.579058
+            },
+            "TotalPlaces": 9
+        },
+        {
+            "Address": "204 - \u0424\u0440\u0443\u043d\u0437\u0435\u043d\u0441\u043a\u0430\u044f \u043d\u0430\u0431. (\u043f\u0435\u0440\u0435\u0441\u0435\u0447. \u0441\u043e 2-\u0439 \u0424\u0440\u0443\u043d\u0437\u0435\u043d\u0441\u043a\u043e\u0439 \u0443\u043b.)",
+            "FreePlaces": 8,
+            "Id": "0204",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.72175,
+                "Lon": 37.5864
+            },
+            "TotalPlaces": 8
+        },
+        {
+            "Address": "205 - \u041a\u043e\u043c\u0441\u043e\u043c\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442 (\u043f\u0435\u0440\u0435\u0441\u0435\u0447. \u0441 3-\u0435\u0439 \u0424\u0440\u0443\u043d\u0437\u0435\u043d\u0441\u043a\u043e\u0439 \u0443\u043b.)",
+            "FreePlaces": 6,
+            "Id": "0205",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.721972,
+                "Lon": 37.575858
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "210 - \u041b\u0443\u0436\u043d\u0435\u0446\u043a\u0430\u044f \u043d\u0430\u0431. (\u043f\u0435\u0440\u0435\u0441\u0435\u0447. \u0441 \u041d\u043e\u0432\u043e\u043b\u0443\u0436\u043d\u0435\u0446\u043a\u0438\u043c \u043f\u0440.)",
+            "FreePlaces": 19,
+            "Id": "0210",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7125583333,
+                "Lon": 37.5695222222
+            },
+            "TotalPlaces": 34
+        },
+        {
+            "Address": "343 - \u0443\u043b. \u041a\u043e\u0441\u044b\u0433\u0438\u043d\u0430, \u0434.26",
+            "FreePlaces": 4,
+            "Id": "0343",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.706491,
+                "Lon": 37.554776
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "301 - \u043f\u0440-\u0442 \u0412\u0435\u0440\u043d\u0430\u0434\u0441\u043a\u043e\u0433\u043e, \u043e\u0441\u0442. \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442",
+            "FreePlaces": 4,
+            "Id": "0301",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.700717,
+                "Lon": 37.545765
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "152 - \u0443\u043b. \u041a\u0440\u044b\u043c\u0441\u043a\u0438\u0439 \u0412\u0430\u043b, \u0434.4 (\u0441\u0442.\u043c.\u041e\u043a\u0442\u044f\u0431\u0440\u044c\u0441\u043a\u0430\u044f)",
+            "FreePlaces": 5,
+            "Id": "0152",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.730486,
+                "Lon": 37.610825
+            },
+            "TotalPlaces": 8
+        },
+        {
+            "Address": "211 - \u0441\u0442.\u043c.\u0412\u043e\u0440\u043e\u0431\u044c\u0451\u0432\u044b \u0433\u043e\u0440\u044b (\u041b\u0443\u0436\u043d\u0438\u043a\u0438)",
+            "FreePlaces": 27,
+            "Id": "0211",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.711594,
+                "Lon": 37.560011
+            },
+            "TotalPlaces": 48
+        },
+        {
+            "Address": "212 - \u041b\u0443\u0436\u043d\u0435\u0446\u043a\u0430\u044f \u043d\u0430\u0431. (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.24, \u0441\u0442\u0440.33)",
+            "FreePlaces": 16,
+            "Id": "0212",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.727001,
+                "Lon": 37.547124
+            },
+            "TotalPlaces": 34
+        },
+        {
+            "Address": "014 - \u0421\u0440\u0435\u0442\u0435\u043d\u0441\u043a\u0438\u0439 \u0431-\u0440, \u0434.11",
+            "FreePlaces": 12,
+            "Id": "0014",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.766504,
+                "Lon": 37.636051
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "028 - \u0443\u043b. \u041c\u043e\u0445\u043e\u0432\u0430\u044f, \u0434.11",
+            "FreePlaces": 1,
+            "Id": "0028",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.754864,
+                "Lon": 37.612264
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "358 - \u041b\u043e\u043c\u043e\u043d\u043e\u0441\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442 (\u0434\u0443\u0431\u043b\u0435\u0440), \u043f\u0435\u0440\u0435\u0441\u0435\u0447\u0435\u043d\u0438\u0435 \u0441 \u0443\u043b. \u041b\u0435\u0431\u0435\u0434\u0435\u0432\u0430",
+            "FreePlaces": 3,
+            "Id": "0358",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.698436,
+                "Lon": 37.528489
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "359 - \u041b\u043e\u043c\u043e\u043d\u043e\u0441\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442 (\u0434\u0443\u0431\u043b\u0435\u0440, \u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.1, \u0441\u0442\u0440.64)",
+            "FreePlaces": 7,
+            "Id": "0359",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.695176,
+                "Lon": 37.533756
+            },
+            "TotalPlaces": 18
+        },
+        {
+            "Address": "349 - \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0413\u0417 \u041c\u0413\u0423)",
+            "FreePlaces": 4,
+            "Id": "0349",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.706203,
+                "Lon": 37.535522
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "352 - \u0443\u043b. \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u043a\u0430 \u0425\u043e\u0445\u043b\u043e\u0432\u0430 (\u0440\u044f\u0434\u043e\u043c \u0441 \u0413\u0417 \u041c\u0413\u0423)",
+            "FreePlaces": 14,
+            "Id": "0352",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.701597,
+                "Lon": 37.530847
+            },
+            "TotalPlaces": 24
+        },
+        {
+            "Address": "356 - \u041b\u043e\u043c\u043e\u043d\u043e\u0441\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442 (\u0434\u0443\u0431\u043b\u0435\u0440), \u043f\u0435\u0440\u0435\u0441\u0435\u0447\u0435\u043d\u0438\u0435 \u0441 \u0443\u043b. \u041c\u0435\u043d\u0434\u0435\u043b\u0435\u0435\u0432\u0430",
+            "FreePlaces": 5,
+            "Id": "0356",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.701742,
+                "Lon": 37.522672
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "045 - \u0443\u043b. \u0422\u0432\u0435\u0440\u0441\u043a\u0430\u044f, \u0434.24, \u0441\u0442\u0440.1",
+            "FreePlaces": 3,
+            "Id": "0045",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.768055,
+                "Lon": 37.599603
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "046 - \u0443\u043b. \u0422\u0432\u0435\u0440\u0441\u043a\u0430\u044f, \u0434.20, \u0441\u0442\u0440.1",
+            "FreePlaces": 4,
+            "Id": "0046",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.766494,
+                "Lon": 37.602422
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "075 - \u041a\u043b\u0438\u043c\u0435\u043d\u0442\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0435\u0440., \u0434.23, \u0441\u0442\u0440.1 (\u0441\u0442.\u043c.\u0422\u0440\u0435\u0442\u044c\u044f\u043a\u043e\u0432\u0441\u043a\u0430\u044f)",
+            "FreePlaces": 7,
+            "Id": "0075",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.740815,
+                "Lon": 37.625638
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "056 - \u0411\u0435\u0440\u0441\u0435\u043d\u044c\u0435\u0432\u0441\u043a\u0430\u044f \u043d\u0430\u0431., \u0434.20/2 (\u0422\u0435\u0430\u0442\u0440 \u044d\u0441\u0442\u0440\u0430\u0434\u044b)",
+            "FreePlaces": 5,
+            "Id": "0056",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.745244,
+                "Lon": 37.610828
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "057 - \u0411\u043e\u043b\u043e\u0442\u043d\u0430\u044f \u043f\u043b. (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u043a/\u0442 \u0423\u0434\u0430\u0440\u043d\u0438\u043a)",
+            "FreePlaces": 4,
+            "Id": "0057",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.744008,
+                "Lon": 37.615425
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "100 - \u0417\u0443\u0431\u043e\u0432\u0441\u043a\u0438\u0439 \u0431-\u0440, \u0434.5, \u0441\u0442\u0440.3 (\u0441\u0442.\u043c.\u041f\u0430\u0440\u043a \u041a\u0443\u043b\u044c\u0442\u0443\u0440\u044b)",
+            "FreePlaces": 17,
+            "Id": "0100",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7351944444,
+                "Lon": 37.5932805556
+            },
+            "TotalPlaces": 40
+        },
+        {
+            "Address": "215 - \u0443\u043b. \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u041f\u0438\u0440\u043e\u0433\u043e\u0432\u0441\u043a\u0430\u044f (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.15/18, \u0441\u0442\u0440.1)",
+            "FreePlaces": 6,
+            "Id": "0215",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.733867,
+                "Lon": 37.575489
+            },
+            "TotalPlaces": 21
+        },
+        {
+            "Address": "216 - \u0443\u043b. \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u041f\u0438\u0440\u043e\u0433\u043e\u0432\u0441\u043a\u0430\u044f (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.6/25)",
+            "FreePlaces": 6,
+            "Id": "0216",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.736464,
+                "Lon": 37.581356
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "214 - \u0443\u043b. \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u041f\u0438\u0440\u043e\u0433\u043e\u0432\u0441\u043a\u0430\u044f, \u0434.2, \u0441\u0442\u0440.4",
+            "FreePlaces": 0,
+            "Id": "0214",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.731139,
+                "Lon": 37.569297
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "217 - \u0443\u043b. \u0423\u0441\u0430\u0447\u0435\u0432\u0430, \u0434.2, \u0441\u0442\u0440.1",
+            "FreePlaces": 1,
+            "Id": "0217",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.730695,
+                "Lon": 37.576903
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "218 - \u041a\u043e\u043c\u0441\u043e\u043c\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.28, \u0441\u0442.\u043c.\u0424\u0440\u0443\u043d\u0437\u0435\u043d\u0441\u043a\u0430\u044f)",
+            "FreePlaces": 5,
+            "Id": "0218",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.726481,
+                "Lon": 37.580778
+            },
+            "TotalPlaces": 24
+        },
+        {
+            "Address": "208 - \u0443\u043b. 10-\u043b\u0435\u0442\u0438\u044f \u041e\u043a\u0442\u044f\u0431\u0440\u044f (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.29, \u043a\u043e\u0440\u043f.3, \u0441\u0442.\u043c.\u0421\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u0430\u044f)",
+            "FreePlaces": 6,
+            "Id": "0208",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.723833,
+                "Lon": 37.565242
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "213 - \u0443\u043b. \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u041f\u0438\u0440\u043e\u0433\u043e\u0432\u0441\u043a\u0430\u044f (\u043d\u0430 \u043f\u043b\u043e\u0449\u0430\u0434\u0438 \u041d\u043e\u0432\u043e\u0434\u0435\u0432\u0438\u0447\u044c\u0435\u0433\u043e \u041c\u043e\u043d\u0430\u0441\u0442\u044b\u0440\u044f)",
+            "FreePlaces": 2,
+            "Id": "0213",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.726908,
+                "Lon": 37.559608
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "219 - \u041a\u043e\u043c\u0441\u043e\u043c\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442 (\u0434\u0443\u0431\u043b\u0435\u0440, \u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.48/22)",
+            "FreePlaces": 7,
+            "Id": "0219",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.719322,
+                "Lon": 37.570481
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "132 - \u0443\u043b. \u0421\u0430\u0434\u043e\u0432\u0430\u044f-\u0427\u0435\u0440\u043d\u043e\u0433\u0440\u044f\u0437\u0441\u043a\u0430\u044f, \u0434.10/25",
+            "FreePlaces": 11,
+            "Id": "0132",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.767129,
+                "Lon": 37.651513
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "136 - \u0443\u043b. \u0417\u0435\u043c\u043b\u044f\u043d\u043e\u0439 \u0412\u0430\u043b, \u0434.2",
+            "FreePlaces": 6,
+            "Id": "0136",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.763292,
+                "Lon": 37.656429
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "138 - \u0443\u043b. \u0417\u0435\u043c\u043b\u044f\u043d\u043e\u0439 \u0412\u0430\u043b, \u0434.14/16, \u0441\u0442\u0440.1",
+            "FreePlaces": 4,
+            "Id": "0138",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.761227,
+                "Lon": 37.656851
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "140 - \u0443\u043b. \u0417\u0435\u043c\u043b\u044f\u043d\u043e\u0439 \u0412\u0430\u043b, \u0434.24/30, \u0441\u0442\u0440.1",
+            "FreePlaces": 12,
+            "Id": "0140",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.758906,
+                "Lon": 37.657344
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "110 - \u041d\u043e\u0432\u0438\u043d\u0441\u043a\u0438\u0439 \u0431-\u0440 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.28/35, \u0441\u0442\u0440.1\u0410)",
+            "FreePlaces": 12,
+            "Id": "0110",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.757508,
+                "Lon": 37.584777
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "142 - \u0443\u043b. \u0417\u0435\u043c\u043b\u044f\u043d\u043e\u0439 \u0412\u0430\u043b, \u0434.48\u0411",
+            "FreePlaces": 4,
+            "Id": "0142",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.752295,
+                "Lon": 37.655594
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "357 - \u041b\u043e\u043c\u043e\u043d\u043e\u0441\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442 (\u0434\u0443\u0431\u043b\u0435\u0440), \u0434.27",
+            "FreePlaces": 6,
+            "Id": "0357",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.699342,
+                "Lon": 37.523769
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "043 - \u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041f\u0430\u0442\u0440\u0438\u0430\u0440\u0448\u0438\u0439 \u043f\u0435\u0440., \u0434.7",
+            "FreePlaces": 8,
+            "Id": "0043",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.763584,
+                "Lon": 37.59311
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "116 - \u0443\u043b. \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u0421\u0430\u0434\u043e\u0432\u0430\u044f, \u0434.14, \u0441\u0442\u0440.1",
+            "FreePlaces": 3,
+            "Id": "0116",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.767979,
+                "Lon": 37.59425
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "118 - \u0443\u043b. \u0421\u0430\u0434\u043e\u0432\u0430\u044f-\u0422\u0440\u0438\u0443\u043c\u0444\u0430\u043b\u044c\u043d\u0430\u044f, \u0434.4/10",
+            "FreePlaces": 4,
+            "Id": "0118",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7709,
+                "Lon": 37.599908
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "225 - \u041a\u0440\u0430\u0441\u043d\u043e\u043f\u0440\u0435\u0441\u043d\u0435\u043d\u0441\u043a\u0430\u044f \u043d\u0430\u0431., \u0432\u043b.5 (\u0443\u0441\u0430\u0434\u044c\u0431\u0430 \u0421\u0442\u0443\u0434\u0435\u043d\u0435\u0446)",
+            "FreePlaces": 6,
+            "Id": "0225",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.75272,
+                "Lon": 37.554819
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "120 - \u0443\u043b. \u0421\u0430\u0434\u043e\u0432\u0430\u044f-\u0421\u0430\u043c\u043e\u0442\u0435\u0447\u043d\u0430\u044f, \u0434.8",
+            "FreePlaces": 3,
+            "Id": "0120",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.773194,
+                "Lon": 37.614186
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "126 - \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u0421\u0443\u0445\u0430\u0440\u0435\u0432\u0441\u043a\u0430\u044f \u043f\u043b., \u0434.2 (\u0441\u0442.\u043c.\u0421\u0443\u0445\u0430\u0440\u0435\u0432\u0441\u043a\u0430\u044f)",
+            "FreePlaces": 2,
+            "Id": "0126",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.772192,
+                "Lon": 37.632814
+            },
+            "TotalPlaces": 10
+        },
+        {
+            "Address": "378 - \u043c\u043a\u0440\u043d. \u0427\u0435\u0440\u0442\u0430\u043d\u043e\u0432\u043e \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0435, \u0434.4, \u043a\u043e\u0440\u043f.401",
+            "FreePlaces": 5,
+            "Id": "0378",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.636752,
+                "Lon": 37.594296
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "379 - \u0443\u043b. \u0412\u0432\u0435\u0434\u0435\u043d\u0441\u043a\u043e\u0433\u043e, \u0434.13\u0410",
+            "FreePlaces": 6,
+            "Id": "0379",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.642636,
+                "Lon": 37.541377
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "382 - \u0443\u043b. \u041f\u0440\u043e\u0444\u0441\u043e\u044e\u0437\u043d\u0430\u044f, \u0434.91 (\u0441\u0442.\u043c.\u0411\u0435\u043b\u044f\u0435\u0432\u043e)",
+            "FreePlaces": 4,
+            "Id": "0382",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.642252,
+                "Lon": 37.526472
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "383 - \u0443\u043b. \u041c\u0438\u043a\u043b\u0443\u0445\u043e-\u041c\u0430\u043a\u043b\u0430\u044f, \u0434.44 (\u0432\u0445\u043e\u0434 \u0432 \u0411\u0438\u0442\u0446\u0435\u0432\u0441\u043a\u0438\u0439 \u043f\u0430\u0440\u043a)",
+            "FreePlaces": 4,
+            "Id": "0383",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.637955,
+                "Lon": 37.543148
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "237 - \u0443\u043b. \u041f\u0440\u0435\u0441\u043d\u0435\u043d\u0441\u043a\u0438\u0439 \u0412\u0430\u043b, \u0434.24",
+            "FreePlaces": 5,
+            "Id": "0237",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7692458,
+                "Lon": 37.5655623
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "316 - \u041b\u0435\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.15\u0410",
+            "FreePlaces": 3,
+            "Id": "0316",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7210015,
+                "Lon": 37.6002317
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "330 - \u0443\u043b. \u041f\u0440\u043e\u0444\u0441\u043e\u044e\u0437\u043d\u0430\u044f, \u0434.7/12",
+            "FreePlaces": 4,
+            "Id": "0330",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6843417,
+                "Lon": 37.5701523
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "340 - \u0443\u043b. \u0428\u0430\u0431\u043e\u043b\u043e\u0432\u043a\u0430, \u0434.32",
+            "FreePlaces": 2,
+            "Id": "0340",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7187566,
+                "Lon": 37.6083998
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "341 - \u0443\u043b. \u041e\u0440\u0434\u0436\u043e\u043d\u0438\u043a\u0438\u0434\u0437\u0435, \u0434.11, \u0441\u0442\u0440.1/2",
+            "FreePlaces": 7,
+            "Id": "0341",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7098155,
+                "Lon": 37.5943736
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "363 - \u041d\u0430\u0445\u0438\u043c\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.24",
+            "FreePlaces": 7,
+            "Id": "0363",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6712381,
+                "Lon": 37.5838691
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "112 -  \u0443\u043b. \u0421\u0430\u0434\u043e\u0432\u0430\u044f-\u041a\u0443\u0434\u0440\u0438\u043d\u0441\u043a\u0430\u044f, \u0434.11, \u0441\u0442\u0440.1",
+            "FreePlaces": 5,
+            "Id": "0112",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7633583,
+                "Lon": 37.587415
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "346 - \u0441\u0442.\u043c.\u041b\u0435\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 (\u044e\u0436\u043d\u044b\u0439 \u0432\u0435\u0441\u0442\u0438\u0431\u044e\u043b\u044c)",
+            "FreePlaces": 3,
+            "Id": "0346",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7067017,
+                "Lon": 37.5850252
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "442 - \u043f\u0440-\u0442 \u041c\u0438\u0440\u0430, \u0434.69, \u0441\u0442\u0440.1",
+            "FreePlaces": 5,
+            "Id": "0442",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7865412,
+                "Lon": 37.6347031
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "385 - \u0443\u043b. \u041e\u0441\u0442\u0440\u043e\u0432\u0438\u0442\u044f\u043d\u043e\u0432\u0430, \u0434.7",
+            "FreePlaces": 5,
+            "Id": "0385",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6440884,
+                "Lon": 37.4953587
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "384 - \u0443\u043b. \u0412\u0432\u0435\u0434\u0435\u043d\u0441\u043a\u043e\u0433\u043e, \u0434.32",
+            "FreePlaces": 6,
+            "Id": "0384",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.634235,
+                "Lon": 37.5308314
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "036 - \u0412\u0430\u0440\u0441\u043e\u043d\u043e\u0444\u044c\u0435\u0432\u0441\u043a\u0438\u0439 \u043f\u0435\u0440., \u0434.12",
+            "FreePlaces": 4,
+            "Id": "0036",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7631067,
+                "Lon": 37.6283117
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "047 - \u0443\u043b. \u041c\u0430\u043b\u0430\u044f \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u043a\u0430, \u0434.15",
+            "FreePlaces": 6,
+            "Id": "0047",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.769732,
+                "Lon": 37.6054017
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "353 - \u0443\u043b. \u041a\u0440\u0438\u0432\u043e\u0440\u043e\u0436\u0441\u043a\u0430\u044f, \u0434.33\u0413",
+            "FreePlaces": 5,
+            "Id": "0353",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6716545,
+                "Lon": 37.6090521
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "368 - \u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u0431-\u0440, \u0434.4",
+            "FreePlaces": 4,
+            "Id": "0368",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6592363,
+                "Lon": 37.6080312
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "480 - \u0443\u043b. \u042f\u0431\u043b\u043e\u0447\u043a\u043e\u0432\u0430, \u0434.18",
+            "FreePlaces": 3,
+            "Id": "0480",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8205976,
+                "Lon": 37.5807216
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "325 - \u0443\u043b. \u0411\u043e\u043b\u043e\u0442\u043d\u0438\u043a\u043e\u0432\u0441\u043a\u0430\u044f, \u0434.34",
+            "FreePlaces": 4,
+            "Id": "0325",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.659118,
+                "Lon": 37.5942492
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "326 - \u0443\u043b. \u041a\u0430\u0445\u043e\u0432\u043a\u0430, \u0434.10/12, \u043a.1",
+            "FreePlaces": 7,
+            "Id": "0326",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6534724,
+                "Lon": 37.5807208
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "328 - \u0411\u0430\u043b\u0430\u043a\u043b\u0430\u0432\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.16",
+            "FreePlaces": 4,
+            "Id": "0328",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6416745,
+                "Lon": 37.604728
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "250 - \u041c\u043e\u0441\u043a\u0432\u0430-\u0421\u0438\u0442\u0438 (\u0431\u0430\u0448\u043d\u044f \u0418\u043c\u043f\u0435\u0440\u0438\u044f)",
+            "FreePlaces": 7,
+            "Id": "0250",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7481479,
+                "Lon": 37.5393069
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "483 - \u041a\u043e\u043c\u0441\u043e\u043c\u043e\u043b\u044c\u0441\u043a\u0430\u044f \u043f\u043b., \u0434.5",
+            "FreePlaces": 16,
+            "Id": "0483",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7766712,
+                "Lon": 37.6591375
+            },
+            "TotalPlaces": 32
+        },
+        {
+            "Address": "071 - \u0443\u043b. \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u042f\u043a\u0438\u043c\u0430\u043d\u043a\u0430 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.18)",
+            "FreePlaces": 0,
+            "Id": "0071",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7397442,
+                "Lon": 37.6166222
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "146 - \u0413\u043e\u043d\u0447\u0430\u0440\u043d\u0430\u044f \u043d\u0430\u0431., \u0434.3, \u0441\u0442\u0440.3",
+            "FreePlaces": 0,
+            "Id": "0146",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7378666,
+                "Lon": 37.6477984
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "354 - \u041b\u043e\u043c\u043e\u043d\u043e\u0441\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.43/40",
+            "FreePlaces": 6,
+            "Id": "0354",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7105268,
+                "Lon": 37.5072476
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "361 - \u041b\u043e\u043c\u043e\u043d\u043e\u0441\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.2/62, \u0441\u0442\u0440.8",
+            "FreePlaces": 5,
+            "Id": "0361",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6846569,
+                "Lon": 37.5521608
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "386 - \u0443\u043b. \u041e\u0441\u0442\u0440\u043e\u0432\u0438\u0442\u044f\u043d\u043e\u0432\u0430, \u0434.29/120",
+            "FreePlaces": 11,
+            "Id": "0386",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6345077,
+                "Lon": 37.520142
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "420 - \u0443\u043b. \u0421\u043e\u0432\u0435\u0442\u0441\u043a\u043e\u0439 \u0410\u0440\u043c\u0438\u0438, \u0434.2, \u0441\u0442\u0440.1",
+            "FreePlaces": 3,
+            "Id": "0420",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.785259,
+                "Lon": 37.6163822
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "430 - \u041e\u043b\u0438\u043c\u043f\u0438\u0439\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.14",
+            "FreePlaces": 8,
+            "Id": "0430",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7791071,
+                "Lon": 37.6225146
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "460 - \u0443\u043b.\u0421\u0430\u0434\u043e\u0432\u0430\u044f-\u0421\u043f\u0430\u0441\u0441\u043a\u0430\u044f, \u0434.21/1",
+            "FreePlaces": 12,
+            "Id": "0460",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7691928,
+                "Lon": 37.6501189
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "156 - \u0443\u043b. \u041a\u0440\u044b\u043c\u0441\u043a\u0438\u0439 \u0412\u0430\u043b, \u0434.8, \u043a\u043e\u0440\u043f.2",
+            "FreePlaces": 5,
+            "Id": "0156",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7320308,
+                "Lon": 37.6063782
+            },
+            "TotalPlaces": 20
+        },
+        {
+            "Address": "371 - \u0443\u043b. \u041d\u043e\u0432\u043e\u0447\u0435\u0440\u0451\u043c\u0443\u0448\u043a\u0438\u043d\u0441\u043a\u0430\u044f, \u0434.71/32",
+            "FreePlaces": 4,
+            "Id": "0371",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6608021,
+                "Lon": 37.5595989
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "417 - \u0443\u043b. \u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u0441\u043a\u0430\u044f, \u0434.2",
+            "FreePlaces": 6,
+            "Id": "0417",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7935234,
+                "Lon": 37.6168972
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "081 - \u0443\u043b. \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u0422\u0430\u0442\u0430\u0440\u0441\u043a\u0430\u044f, \u0434.19/13",
+            "FreePlaces": 5,
+            "Id": "0081",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7398418,
+                "Lon": 37.6333164
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "084 - \u0443\u043b. \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u0422\u0430\u0442\u0430\u0440\u0441\u043a\u0430\u044f, \u0434.35",
+            "FreePlaces": 2,
+            "Id": "0084",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7373622,
+                "Lon": 37.6352882
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "114 - \u0443\u043b. \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u0421\u0430\u0434\u043e\u0432\u0430\u044f, \u0434.1",
+            "FreePlaces": 11,
+            "Id": "0114",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7661975,
+                "Lon": 37.5906762
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "373 - \u0443\u043b. \u0410\u0437\u043e\u0432\u0441\u043a\u0430\u044f, \u0434.24, \u043a\u043e\u0440\u043f.2",
+            "FreePlaces": 3,
+            "Id": "0373",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6523999,
+                "Lon": 37.5964086
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "388 - \u0412\u0430\u0440\u0448\u0430\u0432\u0441\u043a\u043e\u0435 \u0448., \u0434.100",
+            "FreePlaces": 2,
+            "Id": "0388",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6452564,
+                "Lon": 37.6192664
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "389 - \u0443\u043b. 26-\u0442\u0438 \u0411\u0430\u043a\u0438\u043d\u0441\u043a\u0438\u0445 \u041a\u043e\u043c\u0438\u0441\u0441\u0430\u0440\u043e\u0432, \u0434.2\u0411",
+            "FreePlaces": 6,
+            "Id": "0389",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6558941,
+                "Lon": 37.4954392
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "390 - \u0443\u043b. \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u043a\u0430 \u0412\u043e\u043b\u0433\u0438\u043d\u0430, \u0434.6",
+            "FreePlaces": 5,
+            "Id": "0390",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6527248,
+                "Lon": 37.5192587
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "391 - \u041d\u0430\u0445\u0438\u043c\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.11",
+            "FreePlaces": 0,
+            "Id": "0391",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6636625,
+                "Lon": 37.6066403
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "396 - \u0443\u043b. \u0414\u043c\u0438\u0442\u0440\u0438\u044f \u0423\u043b\u044c\u044f\u043d\u043e\u0432\u0430, \u0434.46",
+            "FreePlaces": 4,
+            "Id": "0396",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6794909,
+                "Lon": 37.5953863
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "410 - 2-\u0439 \u0429\u0435\u043c\u0438\u043b\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0435\u0440., 14",
+            "FreePlaces": 6,
+            "Id": "0410",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.778327,
+                "Lon": 37.6089126
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "451 - \u0443\u043b. \u0421\u0435\u043b\u044c\u0441\u043a\u043e\u0445\u043e\u0437\u044f\u0439\u0441\u0442\u0432\u0435\u043d\u043d\u0430\u044f, \u0434.17, \u043a\u043e\u0440\u043f.1",
+            "FreePlaces": 3,
+            "Id": "0451",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.837238,
+                "Lon": 37.6365455
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "327 - \u0443\u043b. \u041a\u0430\u0445\u043e\u0432\u043a\u0430, 9, \u043a.1",
+            "FreePlaces": 5,
+            "Id": "0327",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6514334,
+                "Lon": 37.5888499
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "337 - \u0443\u043b. \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u043a\u0430 \u041f\u0438\u043b\u044e\u0433\u0438\u043d\u0430, \u0434.18",
+            "FreePlaces": 2,
+            "Id": "0337",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.668303,
+                "Lon": 37.5341468
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "339 - \u0443\u043b. \u041e\u0431\u0440\u0443\u0447\u0435\u0432\u0430, \u0434. 16, \u043a.1",
+            "FreePlaces": 8,
+            "Id": "0339",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6589469,
+                "Lon": 37.5145855
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "423 - \u0443\u043b. \u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u0441\u043a\u0430\u044f, \u0434.27",
+            "FreePlaces": 7,
+            "Id": "0423",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8032637,
+                "Lon": 37.6155506
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "129 - \u041e\u0440\u043b\u0438\u043a\u043e\u0432 \u043f\u0435\u0440., \u0434.1/11 (\u0441\u043e \u0441\u0442\u043e\u0440\u043e\u043d\u044b \u043f\u0440. \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u043a\u0430 \u0421\u0430\u0445\u0430\u0440\u043e\u0432\u0430)",
+            "FreePlaces": 6,
+            "Id": "0129",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7706935,
+                "Lon": 37.6446699
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "245 - \u043f\u043b. \u0415\u0432\u0440\u043e\u043f\u044b, \u0434.2 (\u0443 \u043f\u0435\u0448\u0435\u0445\u043e\u0434\u043d\u043e\u0433\u043e \u043c\u043e\u0441\u0442\u0430)",
+            "FreePlaces": 4,
+            "Id": "0245",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7421679,
+                "Lon": 37.5693018
+            },
+            "TotalPlaces": 18
+        },
+        {
+            "Address": "398 - \u0427\u043e\u043d\u0433\u0430\u0440\u0441\u043a\u0438\u0439 \u0431-\u0440, \u0434.1, \u043a.1",
+            "FreePlaces": 2,
+            "Id": "0398",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6530518,
+                "Lon": 37.6180912
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "399 - \u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u0431-\u0440, \u0434.15, \u043a.5",
+            "FreePlaces": 4,
+            "Id": "0399",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.653513,
+                "Lon": 37.6057778
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "407 - \u0443\u043b. \u0421\u0435\u043b\u0435\u0437\u043d\u0435\u0432\u0441\u043a\u0430\u044f, \u0434.28",
+            "FreePlaces": 1,
+            "Id": "0407",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7806984,
+                "Lon": 37.6079968
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "445 - \u0443\u043b. \u0421\u0435\u0440\u0433\u0435\u044f \u042d\u0439\u0437\u0435\u043d\u0448\u0442\u0435\u0439\u043d\u0430, \u0434.1",
+            "FreePlaces": 3,
+            "Id": "0445",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8277664,
+                "Lon": 37.647529
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "474 - \u0443\u043b. 1-\u044f \u041e\u0441\u0442\u0430\u043d\u043a\u0438\u043d\u0441\u043a\u0430\u044f, \u0434.55",
+            "FreePlaces": 5,
+            "Id": "0474",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.823283,
+                "Lon": 37.6341961
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "484 - \u0443\u043b. \u0420\u0443\u0441\u0442\u0430\u0432\u0435\u043b\u0438 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.6, \u043a.5)",
+            "FreePlaces": 4,
+            "Id": "0484",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8126995,
+                "Lon": 37.5880136
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "452 - \u0441\u0442.\u043c.\u0411\u043e\u0442\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0441\u0430\u0434",
+            "FreePlaces": 1,
+            "Id": "0452",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.843162,
+                "Lon": 37.63758
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "408 - \u0443\u043b. \u041b\u0435\u0441\u043d\u0430\u044f, \u0434.63/43, \u0441\u0442\u0440.2",
+            "FreePlaces": 8,
+            "Id": "0408",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7839855,
+                "Lon": 37.5964549
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "485 - \u0441\u0442.\u043c.\u0422\u0438\u043c\u0438\u0440\u044f\u0437\u0435\u0432\u0441\u043a\u0430\u044f",
+            "FreePlaces": 1,
+            "Id": "0485",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8191407,
+                "Lon": 37.5741987
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "324 - \u0443\u043b. \u041b\u043e\u0431\u0430\u0447\u0435\u0432\u0441\u043a\u043e\u0433\u043e, \u0434.2, \u0441\u0442\u0440.1",
+            "FreePlaces": 0,
+            "Id": "0324",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6640735,
+                "Lon": 37.5095406
+            },
+            "TotalPlaces": 10
+        },
+        {
+            "Address": "049 - \u0443\u043b. \u041c\u044f\u0441\u043d\u0438\u0446\u043a\u0430\u044f, \u0434.39, \u0441\u0442\u0440.1",
+            "FreePlaces": 9,
+            "Id": "0049",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.76728,
+                "Lon": 37.641517
+            },
+            "TotalPlaces": 10
+        },
+        {
+            "Address": "400 - \u0443\u043b. 3-\u044f \u0422\u0432\u0435\u0440\u0441\u043a\u0430\u044f-\u042f\u043c\u0441\u043a\u0430\u044f, \u0434.20, \u0441\u0442\u0440.1",
+            "FreePlaces": 0,
+            "Id": "0400",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.772512,
+                "Lon": 37.596288
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "403 - \u0443\u043b. \u0424\u0430\u0434\u0435\u0435\u0432\u0430, \u0434.4",
+            "FreePlaces": 6,
+            "Id": "0403",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.774431,
+                "Lon": 37.599413
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "401 - \u0443\u043b. 2-\u044f \u0422\u0432\u0435\u0440\u0441\u043a\u0430\u044f-\u042f\u043c\u0441\u043a\u0430\u044f, \u0434.54",
+            "FreePlaces": 0,
+            "Id": "0401",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.775457,
+                "Lon": 37.589687
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "313 - \u041b\u0435\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.66",
+            "FreePlaces": 9,
+            "Id": "0313",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.691214,
+                "Lon": 37.550374
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "331 - \u0443\u043b. \u041f\u0440\u043e\u0444\u0441\u043e\u044e\u0437\u043d\u0430\u044f, \u0434.46, \u043a\u043e\u0440\u043f.1",
+            "FreePlaces": 12,
+            "Id": "0331",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6736328,
+                "Lon": 37.557668
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "332 - \u0443\u043b. \u041f\u0440\u043e\u0444\u0441\u043e\u044e\u0437\u043d\u0430\u044f, \u0434.58/32, \u043a\u043e\u0440\u043f.2",
+            "FreePlaces": 13,
+            "Id": "0332",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6689814,
+                "Lon": 37.5529925
+            },
+            "TotalPlaces": 24
+        },
+        {
+            "Address": "441 - \u043f\u0440-\u0442 \u041c\u0438\u0440\u0430, \u0434.41, \u0441\u0442\u0440.2",
+            "FreePlaces": 5,
+            "Id": "0441",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7815506,
+                "Lon": 37.6317848
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "130 - \u0443\u043b. \u0421\u0430\u0434\u043e\u0432\u0430\u044f-\u0427\u0435\u0440\u043d\u043e\u0433\u0440\u044f\u0437\u0441\u043a\u0430\u044f, \u0434.2",
+            "FreePlaces": 8,
+            "Id": "0130",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.768377,
+                "Lon": 37.649278
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "228 - \u0428\u043c\u0438\u0442\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440., \u0434.16, \u0441\u0442\u0440.2",
+            "FreePlaces": 6,
+            "Id": "0228",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7575043,
+                "Lon": 37.5457088
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "432 - \u0443\u043b. \u0429\u0435\u043f\u043a\u0438\u043d\u0430, \u0434.61/2, \u0441\u0442\u0440.22",
+            "FreePlaces": 0,
+            "Id": "0432",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7886534,
+                "Lon": 37.6290169
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "023 - \u041c\u043e\u0441\u043a\u0432\u043e\u0440\u0435\u0446\u043a\u0430\u044f \u043d\u0430\u0431., \u0434.9, \u0441\u0442\u0440.2",
+            "FreePlaces": 3,
+            "Id": "0023",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.749648,
+                "Lon": 37.632738
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "044 - \u0411\u043b\u0430\u0433\u043e\u0432\u0435\u0449\u0435\u043d\u0441\u043a\u0438\u0439 \u043f\u0435\u0440., \u0434.1",
+            "FreePlaces": 6,
+            "Id": "0044",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.766531,
+                "Lon": 37.596239
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "052 - \u0443\u043b. \u041d\u043e\u0432\u044b\u0439 \u0410\u0440\u0431\u0430\u0442, \u0434.19",
+            "FreePlaces": 9,
+            "Id": "0052",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.752291,
+                "Lon": 37.589395
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "053 - \u0443\u043b. \u041d\u043e\u0432\u044b\u0439 \u0410\u0440\u0431\u0430\u0442, \u0434.21",
+            "FreePlaces": 2,
+            "Id": "0053",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.752315,
+                "Lon": 37.584749
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "025 - \u041f\u0440\u0435\u0447\u0438\u0441\u0442\u0435\u043d\u0441\u043a\u0430\u044f \u043d\u0430\u0431., \u0434.15, \u0441\u0442\u0440.1 (\u0443 \u041f\u0430\u0442\u0440\u0438\u0430\u0440\u0448\u0435\u0433\u043e \u043c\u043e\u0441\u0442\u0430)",
+            "FreePlaces": 3,
+            "Id": "0025",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7445,
+                "Lon": 37.608481
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "054 - \u043f\u0435\u0440. \u0421\u0438\u0432\u0446\u0435\u0432 \u0412\u0440\u0430\u0436\u0435\u043a, \u0434.26, \u0441\u0442\u0440.1",
+            "FreePlaces": 5,
+            "Id": "0054",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.747411,
+                "Lon": 37.592209
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "104 - \u0421\u043c\u043e\u043b\u0435\u043d\u0441\u043a\u0438\u0439 \u0431-\u0440, \u0434.22/14",
+            "FreePlaces": 1,
+            "Id": "0104",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.741454,
+                "Lon": 37.585474
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "106 - \u0421\u043c\u043e\u043b\u0435\u043d\u0441\u043a\u0430\u044f \u043f\u043b., \u0434.6",
+            "FreePlaces": 6,
+            "Id": "0106",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.74913,
+                "Lon": 37.583095
+            },
+            "TotalPlaces": 24
+        },
+        {
+            "Address": "364 - \u0443\u043b. \u041c\u0430\u0440\u0438\u0438 \u0423\u043b\u044c\u044f\u043d\u043e\u0432\u043e\u0439, \u0434.16",
+            "FreePlaces": 2,
+            "Id": "0364",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6836121,
+                "Lon": 37.5201069
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "365 - \u0443\u043b. \u0413\u0430\u0440\u0438\u0431\u0430\u043b\u044c\u0434\u0438, \u0434.1\u0410",
+            "FreePlaces": 4,
+            "Id": "0365",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6787267,
+                "Lon": 37.5326129
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "321 - \u041b\u0435\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.79",
+            "FreePlaces": 5,
+            "Id": "0321",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6841473,
+                "Lon": 37.540695
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "387 - \u0443\u043b. \u041f\u0440\u043e\u0444\u0441\u043e\u044e\u0437\u043d\u0430\u044f, \u0434.109, \u0412\u0441.1 (\u0441\u0442.\u043c.\u041a\u043e\u043d\u044c\u043a\u043e\u0432\u043e)",
+            "FreePlaces": 6,
+            "Id": "0387",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6337498,
+                "Lon": 37.5205529
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "413 - \u0443\u043b. \u041d\u043e\u0432\u043e\u0441\u0443\u0449\u0451\u0432\u0441\u043a\u0430\u044f, \u0434.22, \u0441\u0442\u0440.8",
+            "FreePlaces": 5,
+            "Id": "0413",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7896632,
+                "Lon": 37.6044645
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "076 - \u0443\u043b. \u041f\u044f\u0442\u043d\u0438\u0446\u043a\u0430\u044f, \u0434.25, \u0441\u0442\u0440.1\u0414",
+            "FreePlaces": 10,
+            "Id": "0076",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7420854,
+                "Lon": 37.6286203
+            },
+            "TotalPlaces": 16
+        },
+        {
+            "Address": "229 - \u0417\u0432\u0435\u043d\u0438\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u043e\u0435 \u0448., \u0434.7",
+            "FreePlaces": 4,
+            "Id": "0229",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.764259,
+                "Lon": 37.5525262
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "431 - \u041e\u043b\u0438\u043c\u043f\u0438\u0439\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.22",
+            "FreePlaces": 3,
+            "Id": "0431",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7861479,
+                "Lon": 37.6225279
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "307 - \u0443\u043b. \u0412\u0430\u0432\u0438\u043b\u043e\u0432\u0430, \u0434.24",
+            "FreePlaces": 1,
+            "Id": "0307",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7012679,
+                "Lon": 37.5775101
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "411 - \u0443\u043b. \u0421\u0435\u043b\u0435\u0437\u043d\u0451\u0432\u0441\u043a\u0430\u044f, \u0434.29, \u0441\u0442\u0440.1",
+            "FreePlaces": 5,
+            "Id": "0411",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7817849,
+                "Lon": 37.6144726
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "372 - \u0443\u043b. \u041a\u0430\u0445\u043e\u0432\u043a\u0430, \u0434.29\u0410",
+            "FreePlaces": 7,
+            "Id": "0372",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.656695,
+                "Lon": 37.5704328
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "374 - \u0443\u043b. \u041e\u0431\u0440\u0443\u0447\u0435\u0432\u0430, \u0434.33\u0410",
+            "FreePlaces": 3,
+            "Id": "0374",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6512748,
+                "Lon": 37.5529893
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "309 - \u0443\u043b. \u0411\u043e\u043b\u043e\u0442\u043d\u0438\u043a\u043e\u0432\u0441\u043a\u0430\u044f (\u043f\u0430\u0440\u043a \u0438\u043c. 70-\u0442\u0438 \u043b\u0435\u0442\u0438\u044f \u041f\u043e\u0431\u0435\u0434\u044b)",
+            "FreePlaces": 3,
+            "Id": "0309",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6651369,
+                "Lon": 37.5710478
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "338 - \u0443\u043b. \u041d\u043e\u0432\u0430\u0442\u043e\u0440\u043e\u0432 (\u043f\u0435\u0440\u0435\u0441\u0435\u0447\u0435\u043d\u0438\u0435 \u0441 \u0443\u043b. \u0412\u043e\u0440\u043e\u043d\u0446\u043e\u0432\u0441\u043a\u0438\u0435 \u041f\u0440\u0443\u0434\u044b)",
+            "FreePlaces": 8,
+            "Id": "0338",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6667781,
+                "Lon": 37.5268164
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "251 - 1-\u0439 \u041a\u0440\u0430\u0441\u043d\u043e\u0433\u0432\u0430\u0440\u0434\u0435\u0439\u0441\u043a\u0438\u0439 \u043f\u0440-\u0434, \u0434.13, \u0441\u0442\u0440.1",
+            "FreePlaces": 7,
+            "Id": "0251",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7521422,
+                "Lon": 37.5409806
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "348 - \u0443\u043b. \u041c\u043e\u0441\u0444\u0438\u043b\u044c\u043c\u043e\u0432\u0441\u043a\u0430\u044f, \u0434.17/25",
+            "FreePlaces": 3,
+            "Id": "0348",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7155927,
+                "Lon": 37.5159465
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "103 - \u0421\u043c\u043e\u043b\u0435\u043d\u0441\u043a\u0438\u0439 \u0431-\u0440, \u0434.3/5",
+            "FreePlaces": 3,
+            "Id": "0103",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7395274,
+                "Lon": 37.5850326
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "248 - \u0443\u043b. \u0411. \u0414\u043e\u0440\u043e\u0433\u043e\u043c\u0438\u043b\u043e\u0432\u0441\u043a\u0430\u044f, \u0434.7/2",
+            "FreePlaces": 2,
+            "Id": "0248",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.746226,
+                "Lon": 37.5572575
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "392 - \u0443\u043b. \u0420\u0435\u043c\u0438\u0437\u043e\u0432\u0430, \u0434.15",
+            "FreePlaces": 2,
+            "Id": "0392",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.675031,
+                "Lon": 37.604395
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "125 - \u043f\u0440-\u0442 \u041c\u0438\u0440\u0430, \u0434.2",
+            "FreePlaces": 9,
+            "Id": "0125",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7729168,
+                "Lon": 37.6327887
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "416 - \u0443\u043b. \u0421\u0443\u0449\u0451\u0432\u0441\u043a\u0438\u0439 \u0412\u0430\u043b, \u0434.16, \u0441\u0442\u0440.1",
+            "FreePlaces": 2,
+            "Id": "0416",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7924677,
+                "Lon": 37.6023012
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "329 - \u0443\u043b. \u0413\u0430\u0440\u0438\u0431\u0430\u043b\u044c\u0434\u0438, \u0434.6, \u043a.1",
+            "FreePlaces": 7,
+            "Id": "0329",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6760559,
+                "Lon": 37.5372313
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "157 - \u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0432\u0445\u043e\u0434\u0430 \u0432 \u041f\u0430\u0440\u043a \u0413\u043e\u0440\u044c\u043a\u043e\u0433\u043e",
+            "FreePlaces": 3,
+            "Id": "0157",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.731981,
+                "Lon": 37.6048252
+            },
+            "TotalPlaces": 32
+        },
+        {
+            "Address": "342 - \u0443\u043b. \u041c\u043e\u0441\u0444\u0438\u043b\u044c\u043c\u043e\u0432\u0441\u043a\u0430\u044f, \u0434.1, \u0441\u0442\u0440.4",
+            "FreePlaces": 3,
+            "Id": "0342",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7233339,
+                "Lon": 37.5300029
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "004 - \u041d\u0438\u043a\u0438\u0442\u0441\u043a\u0438\u0439 \u0431-\u0440 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.8\u0410/3, \u0441\u0442\u0440.1)",
+            "FreePlaces": 8,
+            "Id": "0004",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.75348,
+                "Lon": 37.601595
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "050 - \u0443\u043b. \u041d\u043e\u0432\u044b\u0439 \u0410\u0440\u0431\u0430\u0442, \u0434.1",
+            "FreePlaces": 6,
+            "Id": "0050",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.752609,
+                "Lon": 37.599867
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "051 - \u0443\u043b. \u041d\u043e\u0432\u044b\u0439 \u0410\u0440\u0431\u0430\u0442, \u0434.11",
+            "FreePlaces": 5,
+            "Id": "0051",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.75259,
+                "Lon": 37.596453
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "022 - \u041c\u043e\u0441\u043a\u0432\u043e\u0440\u0435\u0446\u043a\u0430\u044f \u043d\u0430\u0431., \u0434.2\u0410, \u0441\u0442\u0440.1",
+            "FreePlaces": 7,
+            "Id": "0022",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.748109,
+                "Lon": 37.638768
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "144 - \u0443\u043b. \u0417\u0435\u043c\u043b\u044f\u043d\u043e\u0439 \u0412\u0430\u043b, \u0434.52/16, \u0441\u0442\u0440.2",
+            "FreePlaces": 1,
+            "Id": "0144",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.749356,
+                "Lon": 37.655467
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "220 - \u0443\u043b. \u041a\u0440\u0430\u0441\u043d\u0430\u044f \u041f\u0440\u0435\u0441\u043d\u044f, \u0434.1",
+            "FreePlaces": 4,
+            "Id": "0220",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7606473,
+                "Lon": 37.5770352
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "240 - \u0421\u043c\u043e\u043b\u0435\u043d\u0441\u043a\u0430\u044f \u043d\u0430\u0431., \u0434.2",
+            "FreePlaces": 4,
+            "Id": "0240",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.746072,
+                "Lon": 37.575724
+            },
+            "TotalPlaces": 20
+        },
+        {
+            "Address": "221 - \u0443\u043b. \u041a\u0440\u0430\u0441\u043d\u0430\u044f \u041f\u0440\u0435\u0441\u043d\u044f, \u0434.31",
+            "FreePlaces": 3,
+            "Id": "0221",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.762772,
+                "Lon": 37.563289
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "234 - \u0443\u043b. \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u0413\u0440\u0443\u0437\u0438\u043d\u0441\u043a\u0430\u044f, \u0434.39",
+            "FreePlaces": 2,
+            "Id": "0234",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.769853,
+                "Lon": 37.581862
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "235 - \u0443\u043b. \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u0413\u0440\u0443\u0437\u0438\u043d\u0441\u043a\u0430\u044f, \u0434.1, \u0441\u0442\u0440.2",
+            "FreePlaces": 1,
+            "Id": "0235",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7610326,
+                "Lon": 37.5768743
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "227 - \u041a\u0440\u0430\u0441\u043d\u043e\u043f\u0440\u0435\u0441\u043d\u0435\u043d\u0441\u043a\u0430\u044f \u043d\u0430\u0431., \u0434.16, \u0441\u0442\u0440.1",
+            "FreePlaces": 2,
+            "Id": "0227",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.747807,
+                "Lon": 37.543724
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "241 - 7-\u0439 \u0420\u043e\u0441\u0442\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0435\u0440., \u0434.11",
+            "FreePlaces": 10,
+            "Id": "0241",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.740347,
+                "Lon": 37.572706
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "238 - \u0443\u043b. 1905 \u0433\u043e\u0434\u0430, \u0434.4, \u0441\u0442\u0440.2",
+            "FreePlaces": 4,
+            "Id": "0238",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.763956,
+                "Lon": 37.561985
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "344 - \u0443\u043b. \u041a\u043e\u0441\u044b\u0433\u0438\u043d\u0430, \u0434.8, \u0441\u0442\u0440.2",
+            "FreePlaces": 2,
+            "Id": "0344",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.706876,
+                "Lon": 37.564743
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "345 - \u0443\u043b. \u041a\u043e\u0441\u044b\u0433\u0438\u043d\u0430, \u0434.2, \u0441\u0442\u0440.19",
+            "FreePlaces": 5,
+            "Id": "0345",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.708218,
+                "Lon": 37.576594
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "355 - \u041b\u043e\u043c\u043e\u043d\u043e\u0441\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.29, \u043a\u043e\u0440\u043f.3",
+            "FreePlaces": 5,
+            "Id": "0355",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.705293,
+                "Lon": 37.514291
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "320 - \u041b\u0435\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.73/8",
+            "FreePlaces": 8,
+            "Id": "0320",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.688153,
+                "Lon": 37.546468
+            },
+            "TotalPlaces": 15
+        },
+        {
+            "Address": "360 - \u043f\u043b. \u0414\u0436\u0430\u0432\u0430\u0445\u0430\u0440\u043b\u0430\u043b\u0430 \u041d\u0435\u0440\u0443, \u0434.1",
+            "FreePlaces": 6,
+            "Id": "0360",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.693257,
+                "Lon": 37.535463
+            },
+            "TotalPlaces": 18
+        },
+        {
+            "Address": "362 - \u041d\u0430\u0445\u0438\u043c\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.46",
+            "FreePlaces": 2,
+            "Id": "0362",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.678516,
+                "Lon": 37.561994
+            },
+            "TotalPlaces": 15
+        },
+        {
+            "Address": "351 - \u0443\u043b. \u0414\u043c\u0438\u0442\u0440\u0438\u044f \u0423\u043b\u044c\u044f\u043d\u043e\u0432\u0430, \u0434.20",
+            "FreePlaces": 10,
+            "Id": "0351",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.688183,
+                "Lon": 37.572456
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "038 - \u0443\u043b. \u041c\u0430\u0440\u043e\u0441\u0435\u0439\u043a\u0430, \u0434.19",
+            "FreePlaces": 5,
+            "Id": "0038",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.757758,
+                "Lon": 37.636136
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "077 - \u0443\u043b. \u041f\u044f\u0442\u043d\u0438\u0446\u043a\u0430\u044f, \u0434.42",
+            "FreePlaces": 4,
+            "Id": "0077",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.737812,
+                "Lon": 37.628275
+            },
+            "TotalPlaces": 10
+        },
+        {
+            "Address": "377 - \u0441\u0442.\u043c.\u0427\u0435\u0440\u0442\u0430\u043d\u043e\u0432\u0441\u043a\u0430\u044f",
+            "FreePlaces": 2,
+            "Id": "0377",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.640518,
+                "Lon": 37.60489
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "310 - \u041b\u0435\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.34/1",
+            "FreePlaces": 4,
+            "Id": "0310",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.707107,
+                "Lon": 37.578173
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "311 - \u041b\u0435\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.54",
+            "FreePlaces": 5,
+            "Id": "0311",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.697476,
+                "Lon": 37.560729
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "032 - \u0443\u043b. \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u043a\u0430, \u0434.5/6, \u0441\u0442\u0440.5",
+            "FreePlaces": 0,
+            "Id": "0032",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.759865,
+                "Lon": 37.615807
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "405 - \u0443\u043b. \u041d\u043e\u0432\u043e\u043b\u0435\u0441\u043d\u0430\u044f, \u0434.1/49",
+            "FreePlaces": 9,
+            "Id": "0405",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7812396,
+                "Lon": 37.59239
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "073 - \u0443\u043b. \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u041f\u043e\u043b\u044f\u043d\u043a\u0430, \u0434.33/41, \u0441\u0442\u0440.1",
+            "FreePlaces": 2,
+            "Id": "0073",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7362414,
+                "Lon": 37.6195157
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "122 - \u0426\u0432\u0435\u0442\u043d\u043e\u0439 \u0431-\u0440., \u0434.34, \u0441\u0442\u0440.1",
+            "FreePlaces": 2,
+            "Id": "0122",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7730885,
+                "Lon": 37.6212721
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "231 - \u043f\u043b. \u0422\u0432\u0435\u0440\u0441\u043a\u0430\u044f \u0417\u0430\u0441\u0442\u0430\u0432\u0430, \u0434.7",
+            "FreePlaces": 6,
+            "Id": "0231",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.777077,
+                "Lon": 37.5831355
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "302 - \u043f\u0440-\u0442 \u0412\u0435\u0440\u043d\u0430\u0434\u0441\u043a\u043e\u0433\u043e, \u0434.11/19",
+            "FreePlaces": 1,
+            "Id": "0302",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6897298,
+                "Lon": 37.530764
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "334 - \u0443\u043b. \u041f\u0440\u043e\u0444\u0441\u043e\u044e\u0437\u043d\u0430\u044f, \u0434.104",
+            "FreePlaces": 3,
+            "Id": "0334",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6420084,
+                "Lon": 37.5256107
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "380 - \u0443\u043b. \u041c\u0438\u043a\u043b\u0443\u0445\u043e-\u041c\u0430\u043a\u043b\u0430\u044f, \u0434.6",
+            "FreePlaces": 10,
+            "Id": "0380",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6533607,
+                "Lon": 37.5006237
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "367 - \u0421\u0435\u0432\u0430\u0441\u0442\u043e\u043f\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.28, \u043a\u043e\u0440\u043f.4",
+            "FreePlaces": 2,
+            "Id": "0367",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6620326,
+                "Lon": 37.5766175
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "318 - \u041b\u0435\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.45",
+            "FreePlaces": 6,
+            "Id": "0318",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7032184,
+                "Lon": 37.5731731
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "414 - \u0443\u043b. \u041e\u0431\u0440\u0430\u0437\u0446\u043e\u0432\u0430, \u0434.19\u0410",
+            "FreePlaces": 3,
+            "Id": "0414",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7892041,
+                "Lon": 37.6098375
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "421 - \u0443\u043b. \u0421\u043e\u0432\u0435\u0442\u0441\u043a\u043e\u0439 \u0410\u0440\u043c\u0438\u0438, \u0434.8",
+            "FreePlaces": 9,
+            "Id": "0421",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.787541,
+                "Lon": 37.6170397
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "078 - \u0443\u043b. \u041f\u044f\u0442\u043d\u0438\u0446\u043a\u0430\u044f, \u0434.48, \u0441\u0442\u0440.1",
+            "FreePlaces": 0,
+            "Id": "0078",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7353228,
+                "Lon": 37.6276564
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "108 - \u041d\u043e\u0432\u0438\u043d\u0441\u043a\u0438\u0439 \u0431-\u0440, \u0434.27, \u0441\u0442\u0440.2",
+            "FreePlaces": 5,
+            "Id": "0108",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.756565,
+                "Lon": 37.5837769
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "236 - \u0443\u043b. \u041c\u0430\u043b\u0430\u044f \u0413\u0440\u0443\u0437\u0438\u043d\u0441\u043a\u0430\u044f, \u0434.19/2",
+            "FreePlaces": 4,
+            "Id": "0236",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7654099,
+                "Lon": 37.5719413
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "333 - \u0443\u043b. \u041f\u0440\u043e\u0444\u0441\u043e\u044e\u0437\u043d\u0430\u044f, \u0434.61\u0410",
+            "FreePlaces": 6,
+            "Id": "0333",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6560575,
+                "Lon": 37.5397093
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "347 - \u0443\u043b. \u0428\u0432\u0435\u0440\u043d\u0438\u043a\u0430, \u0434.13, \u043a\u043e\u0440\u043f.1",
+            "FreePlaces": 11,
+            "Id": "0347",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6914923,
+                "Lon": 37.5890604
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "375 - \u0443\u043b. \u041e\u0431\u0440\u0443\u0447\u0435\u0432\u0430, \u0434.65/54",
+            "FreePlaces": 9,
+            "Id": "0375",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6502405,
+                "Lon": 37.5639941
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "055 - \u0443\u043b. \u041f\u0440\u0435\u0447\u0438\u0441\u0442\u0435\u043d\u043a\u0430, \u0434.34",
+            "FreePlaces": 4,
+            "Id": "0055",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7400913,
+                "Lon": 37.5896349
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "060 - \u0413\u0430\u0437\u0435\u0442\u043d\u044b\u0439 \u043f\u0435\u0440., \u0434.6",
+            "FreePlaces": 10,
+            "Id": "0060",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7574181,
+                "Lon": 37.6086772
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "080 - \u0443\u043b. \u041f\u044f\u0442\u043d\u0438\u0446\u043a\u0430\u044f, \u0434.2/38",
+            "FreePlaces": 4,
+            "Id": "0080",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7456921,
+                "Lon": 37.6265178
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "151 - \u0443\u043b. \u041b\u044e\u0441\u0438\u043d\u043e\u0432\u0441\u043a\u0430\u044f, \u0434.2",
+            "FreePlaces": 4,
+            "Id": "0151",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7290444,
+                "Lon": 37.6233327
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "376 - \u0411\u0430\u043b\u0430\u043a\u043b\u0430\u0432\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.34, \u043a\u043e\u0440\u043f.1",
+            "FreePlaces": 3,
+            "Id": "0376",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6450878,
+                "Lon": 37.5820766
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "381 - \u0443\u043b. \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u043a\u0430 \u0412\u043e\u043b\u0433\u0438\u043d\u0430, \u0434.21",
+            "FreePlaces": 6,
+            "Id": "0381",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6477514,
+                "Lon": 37.5137244
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "393 - \u041d\u0430\u0445\u0438\u043c\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.45, \u0441\u0442\u0440.1",
+            "FreePlaces": 7,
+            "Id": "0393",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6748694,
+                "Lon": 37.5708842
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "395 - \u0443\u043b. \u0414\u043c\u0438\u0442\u0440\u0438\u044f \u0423\u043b\u044c\u044f\u043d\u043e\u0432\u0430, \u0434.32\u0410",
+            "FreePlaces": 4,
+            "Id": "0395",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.684101,
+                "Lon": 37.582427
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "443 - \u043f\u0440-\u0442 \u041c\u0438\u0440\u0430, \u0434.97",
+            "FreePlaces": 6,
+            "Id": "0443",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.8086515,
+                "Lon": 37.636561
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "463 - \u0443\u043b. \u041a\u0430\u043b\u0430\u043d\u0447\u0451\u0432\u0441\u043a\u0430\u044f, \u0434.10, \u0441\u0442\u0440.3",
+            "FreePlaces": 4,
+            "Id": "0463",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7763965,
+                "Lon": 37.6501702
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "085 - \u041a\u043e\u0442\u0435\u043b\u044c\u043d\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043d\u0430\u0431., \u0434.1",
+            "FreePlaces": 5,
+            "Id": "0085",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7483533,
+                "Lon": 37.645458
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "335 - \u0443\u043b. \u041f\u0440\u043e\u0444\u0441\u043e\u044e\u0437\u043d\u0430\u044f, \u0434.82, \u043a\u043e\u0440\u043f.1",
+            "FreePlaces": 2,
+            "Id": "0335",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6565141,
+                "Lon": 37.539523
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "439 - \u043f\u0440-\u0442 \u041c\u0438\u0440\u0430, \u0434.11",
+            "FreePlaces": 7,
+            "Id": "0439",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7761657,
+                "Lon": 37.6320952
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "308 - \u0443\u043b. \u0412\u0430\u0432\u0438\u043b\u043e\u0432\u0430, \u0434.17",
+            "FreePlaces": 2,
+            "Id": "0308",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7015839,
+                "Lon": 37.579688
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "027 - \u0443\u043b. \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u041d\u0438\u043a\u0438\u0442\u0441\u043a\u0430\u044f (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.13)",
+            "FreePlaces": 8,
+            "Id": "0027",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.756777,
+                "Lon": 37.604979
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "074 - \u0443\u043b. \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u041f\u043e\u043b\u044f\u043d\u043a\u0430, \u0434.50/1, \u0441\u0442\u0440.1",
+            "FreePlaces": 3,
+            "Id": "0074",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.73218,
+                "Lon": 37.620018
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "154 - \u0443\u043b. \u041a\u0440\u044b\u043c\u0441\u043a\u0438\u0439 \u0412\u0430\u043b, \u0434.3, \u0441\u0442\u0440.16",
+            "FreePlaces": 4,
+            "Id": "0154",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.730042,
+                "Lon": 37.61027
+            },
+            "TotalPlaces": 20
+        },
+        {
+            "Address": "059 - \u041a\u043e\u0442\u0435\u043b\u044c\u043d\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043d\u0430\u0431., \u0434.33, \u0441\u0442\u0440. 1",
+            "FreePlaces": 0,
+            "Id": "0059",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.74078,
+                "Lon": 37.646155
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "072 - \u0443\u043b. \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u042f\u043a\u0438\u043c\u0430\u043d\u043a\u0430, \u0434.16 (\u0441\u0442.\u043c.\u041e\u043a\u0442\u044f\u0431\u0440\u044c\u0441\u043a\u0430\u044f)",
+            "FreePlaces": 6,
+            "Id": "0072",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.730772,
+                "Lon": 37.612528
+            },
+            "TotalPlaces": 20
+        },
+        {
+            "Address": "148 - \u0443\u043b. \u0411\u0430\u0445\u0440\u0443\u0448\u0438\u043d\u0430, \u0434.31/12, \u0441\u0442\u0440.3",
+            "FreePlaces": 10,
+            "Id": "0148",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.731861,
+                "Lon": 37.63885
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "150 - \u0443\u043b. \u0412\u0430\u043b\u043e\u0432\u0430\u044f, \u0434.20",
+            "FreePlaces": 2,
+            "Id": "0150",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.730521,
+                "Lon": 37.629933
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "024 - \u041f\u0440\u0435\u0447\u0438\u0441\u0442\u0435\u043d\u0441\u043a\u0430\u044f \u043d\u0430\u0431., \u0434.45/1, \u0441\u0442\u0440.2\u0410",
+            "FreePlaces": 1,
+            "Id": "0024",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.746597,
+                "Lon": 37.610408
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "242 - \u0421\u0430\u0432\u0432\u0438\u043d\u0441\u043a\u0430\u044f \u043d\u0430\u0431., \u0434.3",
+            "FreePlaces": 6,
+            "Id": "0242",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.739547,
+                "Lon": 37.570602
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "232 - \u0443\u043b. 2-\u044f \u0411\u0440\u0435\u0441\u0442\u0441\u043a\u0430\u044f, \u0434.31",
+            "FreePlaces": 8,
+            "Id": "0232",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7733,
+                "Lon": 37.586215
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "233 - \u0443\u043b. \u0413\u0430\u0448\u0435\u043a\u0430, \u0434.2, \u0441\u0442\u0440.1",
+            "FreePlaces": 10,
+            "Id": "0233",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.767711,
+                "Lon": 37.587921
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "402 - \u0443\u043b. \u041b\u0435\u0441\u043d\u0430\u044f, \u0434.6",
+            "FreePlaces": 6,
+            "Id": "0402",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.777273,
+                "Lon": 37.587058
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "222 - \u0443\u043b. \u041c\u0430\u043d\u0442\u0443\u043b\u0438\u043d\u0441\u043a\u0430\u044f, \u0434.2",
+            "FreePlaces": 4,
+            "Id": "0222",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.75685,
+                "Lon": 37.558939
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "223 - \u0443\u043b. \u041c\u0430\u043d\u0442\u0443\u043b\u0438\u043d\u0441\u043a\u0430\u044f, \u0434.5, \u0441\u0442\u0440.21",
+            "FreePlaces": 3,
+            "Id": "0223",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.755955,
+                "Lon": 37.55125
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "224 - \u041a\u0440\u0430\u0441\u043d\u043e\u043f\u0440\u0435\u0441\u043d\u0435\u043d\u0441\u043a\u0430\u044f \u043d\u0430\u0431., \u0434.14, \u0441\u0442\u0440.1",
+            "FreePlaces": 7,
+            "Id": "0224",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.748725,
+                "Lon": 37.546334
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "226 - \u041a\u0440\u0430\u0441\u043d\u043e\u043f\u0440\u0435\u0441\u043d\u0435\u043d\u0441\u043a\u0430\u044f \u043d\u0430\u0431., \u0434.12\u0410",
+            "FreePlaces": 6,
+            "Id": "0226",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.753883,
+                "Lon": 37.55966
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "102 - \u0417\u0443\u0431\u043e\u0432\u0441\u043a\u0430\u044f \u043f\u043b., \u0434.3, \u0441\u0442\u0440.1",
+            "FreePlaces": 3,
+            "Id": "0102",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.738264,
+                "Lon": 37.585779
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "239 - \u0421\u043c\u043e\u043b\u0435\u043d\u0441\u043a\u0430\u044f \u043d\u0430\u0431., \u0434.12",
+            "FreePlaces": 5,
+            "Id": "0239",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.751111,
+                "Lon": 37.575021
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "244 - \u0443\u043b. \u041f\u043b\u044e\u0449\u0438\u0445\u0430, \u0434.39",
+            "FreePlaces": 5,
+            "Id": "0244",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.740264,
+                "Lon": 37.576753
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "040 - \u0443\u043b. \u0421\u043e\u043b\u044f\u043d\u043a\u0430 (\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432 \u0434.8)",
+            "FreePlaces": 0,
+            "Id": "0040",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.753189,
+                "Lon": 37.638913
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "058 - \u0421\u0435\u0440\u0435\u0431\u0440\u044f\u043d\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043d\u0430\u0431., \u0434.29",
+            "FreePlaces": 4,
+            "Id": "0058",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.750628,
+                "Lon": 37.654944
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "315 - \u041b\u0435\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.9, \u0441\u0442\u0440.3",
+            "FreePlaces": 7,
+            "Id": "0315",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.724388,
+                "Lon": 37.605352
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "317 - \u041b\u0435\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.33",
+            "FreePlaces": 4,
+            "Id": "0317",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.712075,
+                "Lon": 37.587744
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "350 - \u0443\u043b. \u0412\u0430\u0432\u0438\u043b\u043e\u0432\u0430, \u0434.55/7",
+            "FreePlaces": 5,
+            "Id": "0350",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.691614,
+                "Lon": 37.562443
+            },
+            "TotalPlaces": 15
+        },
+        {
+            "Address": "312 - \u041b\u0435\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.60/2",
+            "FreePlaces": 3,
+            "Id": "0312",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.694853,
+                "Lon": 37.556333
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "300 - \u041c\u0438\u0447\u0443\u0440\u0438\u043d\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, \u0434.12, \u043a\u043e\u0440\u043f.1",
+            "FreePlaces": 7,
+            "Id": "0300",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.7032223,
+                "Lon": 37.5073382
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "369 - \u0443\u043b. \u0423\u0434\u0430\u043b\u044c\u0446\u043e\u0432\u0430, \u0434.2",
+            "FreePlaces": 7,
+            "Id": "0369",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6712494,
+                "Lon": 37.5197786
+            },
+            "TotalPlaces": 12
+        },
+        {
+            "Address": "303 - \u043f\u0440-\u0442 \u0412\u0435\u0440\u043d\u0430\u0434\u0441\u043a\u043e\u0433\u043e, \u0434.14",
+            "FreePlaces": 4,
+            "Id": "0303",
+            "IsLocked": false,
+            "Position": {
+                "Lat": 55.6765135,
+                "Lon": 37.5045648
+            },
+            "TotalPlaces": 12
+        }
+    ]
+}

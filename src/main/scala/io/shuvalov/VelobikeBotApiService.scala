@@ -1,3 +1,5 @@
+package io.shuvalov
+
 import akka.actor.ActorSystem
 import akka.event.{Logging, LoggingAdapter}
 import akka.http.scaladsl.Http
@@ -9,7 +11,6 @@ import com.typesafe.config.{Config, ConfigFactory}
 import spray.json.{DefaultJsonProtocol, _}
 
 import scala.concurrent.{ExecutionContextExecutor, Future}
-import scala.util.{Failure, Success}
 
 case class Location(latitude: Double, longitude: Double)
 
@@ -23,6 +24,8 @@ case class Update(update_id: Int, message: Message)
 
 case class SendVenue(chat_id: Int, latitude: Double, longitude: Double, title: String, address: String)
 
+case class SendMessage(chat_id: Int, text: String)
+
 trait Protocols extends DefaultJsonProtocol with SprayJsonSupport {
   implicit val userFormat = jsonFormat4(User.apply)
   implicit val locationFormat = jsonFormat2(Location.apply)
@@ -30,18 +33,35 @@ trait Protocols extends DefaultJsonProtocol with SprayJsonSupport {
   implicit val messageFormat = jsonFormat5(Message.apply)
   implicit val updateFormat = jsonFormat2(Update.apply)
   implicit val sendVenueFormat = jsonFormat5(SendVenue.apply)
+  implicit val sendMessageFormat = jsonFormat2(SendMessage.apply)
 }
 
 
-trait Service extends Protocols {
+trait Service extends Protocols with NearestLocationService{
   implicit val system: ActorSystem
   implicit def executor: ExecutionContextExecutor
   implicit val materializer: Materializer
 
-  private def sendMessage(botToken: String, venue: SendVenue): Future[HttpResponse] = {
+  private val messageServerError = config.getString("messages.server-error")
+  private val messageLongDistance = config.getString("messages.long-distance")
+  private val messageUsage = config.getString("messages.usage")
+  private val messageNoParkings = config.getString("no-parkings")
+
+
+  private def sendVenue(botToken: String, venue: SendVenue): Future[HttpResponse] = {
     Http().singleRequest(HttpRequest(HttpMethods.POST,
       s"https://api.telegram.org/bot$botToken/sendVenue",
       entity = HttpEntity(ContentTypes.`application/json`, venue.toJson.prettyPrint)))
+  }
+
+  private def sendReply(botToken: String, update: Update, text: String): Unit = {
+    sendMessage(botToken, SendMessage(update.message.chat.id, text))
+  }
+
+  private def sendMessage(botToken: String, message: SendMessage): Future[HttpResponse] = {
+    Http().singleRequest(HttpRequest(HttpMethods.POST,
+      s"https://api.telegram.org/bot$botToken/sendMessage",
+      entity = HttpEntity(ContentTypes.`application/json`, message.toJson.prettyPrint)))
   }
 
   def config: Config
@@ -49,25 +69,30 @@ trait Service extends Protocols {
   val routes = {
     (pathPrefix("webhook") & post) {
       logRequest("webhook") {
-        path(RestPath) { botToken =>
-          logger.info(s"Webhook token ${botToken.toString()}")
+        path(RestPath) { botTokenPath =>
+          val token = botTokenPath.toString
           entity(as[Update]) { update =>
             update.message.location match {
               case Some(location) =>
-                logger.info(s"Got request with text ${location.latitude} ${location.longitude}")
-                val venue = SendVenue(update.message.chat.id, location.latitude, location.longitude, "title", "addr")
-                sendMessage(botToken.toString(), venue).onComplete {
-                  case Success(httpResponse) =>
-                    logger.info(s"Message sent ok ${httpResponse.status}")
-                    complete(StatusCodes.OK)
-                  case Failure(e) =>
-                    logger.info(s"Message sent error", e)
-                    complete(StatusCodes.NotFound)
+                val position = Position(location.latitude, location.longitude)
+                logger.info(s"Got request with text ${position.Lat} ${position.Lon}")
+                nearest(position).onSuccess {
+                  case Left(error) => {
+                    error match {
+                      case ServiceError => sendReply(token, update, messageServerError)
+                      case LongDistance => sendReply(token, update, messageLongDistance)
+                      case NoParkingsAvailable => sendReply(token, update, messageNoParkings)
+                    }
+                  }
+                  case Right(parking) =>
+                    val venue = SendVenue(update.message.chat.id, parking.Position.Lat, parking.Position.Lon,
+                      parking.Id, parking.Address)
+                    sendVenue(token, venue)
                 }
-                logger.info("Processing finished")
                 complete(StatusCodes.OK)
               case None =>
                 logger.warning("Location not found")
+                sendReply(token, update, messageUsage)
                 complete(StatusCodes.OK)
             }
           }
