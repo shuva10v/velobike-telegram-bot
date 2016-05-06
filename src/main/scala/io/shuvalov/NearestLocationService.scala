@@ -68,7 +68,7 @@ trait NearestLocationService extends VelobikeJsonProtocol {
     parkings().map(parkings => {
       val sorted = parkings
         .filter(_.IsLocked == false)
-        .filter(_.FreePlaces > 0)
+        .filter(parking => parking.TotalPlaces - parking.FreePlaces > 0)
         .map(parking => {
           (distance(position, parking.Position), parking)
         }).sortBy(_._1)
