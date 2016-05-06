@@ -11,6 +11,7 @@ import com.typesafe.config.{Config, ConfigFactory}
 import spray.json.{DefaultJsonProtocol, _}
 
 import scala.concurrent.{ExecutionContextExecutor, Future}
+import scala.util.{Failure, Success}
 
 case class Location(latitude: Double, longitude: Double)
 
@@ -80,18 +81,25 @@ trait Service extends Protocols with NearestLocationService{
               case Some(location) =>
                 val position = Position(location.latitude, location.longitude)
                 logger.info(s"Got request with text ${position.Lat} ${position.Lon}")
-                nearest(position).onSuccess {
-                  case Left(error) => {
-                    error match {
-                      case ServiceError => sendReply(token, update, message(messageServerError))
-                      case LongDistance => sendReply(token, update, message(messageLongDistance))
-                      case NoParkingsAvailable => sendReply(token, update, message(messageNoParkings))
+                nearest(position).onComplete {
+                  case Success(result) =>
+                    result match {
+                      case Left(error) =>
+                      error match {
+                        case ServiceError => sendReply(token, update, message(messageServerError))
+                        case LongDistance => sendReply(token, update, message(messageLongDistance))
+                        case NoParkingsAvailable => sendReply(token, update, message(messageNoParkings))
+                      }
+                      case Right(parking) =>
+                        val venue = SendVenue(update.message.chat.id, parking.Position.Lat, parking.Position.Lon,
+                          parking.Id, parking.Address)
+                        sendVenue(token, venue)
                     }
+                  case Failure(e) => {
+                    logger.error("Unable to get nearest location")
+                    sendReply(token, update, message(messageServerError))
+                    throw e
                   }
-                  case Right(parking) =>
-                    val venue = SendVenue(update.message.chat.id, parking.Position.Lat, parking.Position.Lon,
-                      parking.Id, parking.Address)
-                    sendVenue(token, venue)
                 }
                 complete(StatusCodes.OK)
               case None =>

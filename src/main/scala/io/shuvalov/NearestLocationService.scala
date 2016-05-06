@@ -47,10 +47,10 @@ trait NearestLocationService extends VelobikeJsonProtocol {
 	implicit val logger: LoggingAdapter
 
 	lazy val connectionFlow: Flow[HttpRequest, HttpResponse, Any] =
-		Http().outgoingConnection("velobike.ru")
+		Http().outgoingConnection("apivelobike.velobike.ru")
 
 	private def parkings(): Future[Seq[Parking]] = {
-		Source.single(RequestBuilding.Get(s"/proxy/parkings/")).via(connectionFlow).runWith(Sink.head).flatMap {
+		Source.single(RequestBuilding.Get(s"/ride/parkings")).via(connectionFlow).runWith(Sink.head).flatMap {
 			response =>
 				response.status match {
 					case StatusCodes.OK => Unmarshal(response.entity).to[ParkingsList].map(_.Items)
