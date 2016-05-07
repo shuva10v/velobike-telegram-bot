@@ -66,17 +66,24 @@ trait NearestLocationService extends VelobikeJsonProtocol {
 
   def nearest(position: Position): Future[Either[ErrorStatus, Parking]] = {
     parkings().map(parkings => {
-      val sorted = parkings
+      val bestFit = parkings
         .filter(_.IsLocked == false)
         .filter(parking => parking.TotalPlaces - parking.FreePlaces > 0)
         .map(parking => {
           (distance(position, parking.Position), parking)
-        }).sortBy(_._1)
-      if (sorted.size == 0) {
+        }).reduceLeftOption {
+        (left, right) =>
+          if (left._1 < right._1) {
+            left
+          } else {
+            right
+          }
+      }
+      if (bestFit.isEmpty) {
         logger.error("No parkings available!")
         Left(NoParkingsAvailable)
       } else {
-        val (minDistance, parking) = sorted.head
+        val (minDistance, parking) = bestFit.get
         if (minDistance > MAX_DISTANCE_FROM_PARKING) {
           Left(LongDistance)
         } else {
