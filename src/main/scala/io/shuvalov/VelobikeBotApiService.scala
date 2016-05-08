@@ -82,10 +82,10 @@ trait Service extends Protocols with NearestLocationService {
         path(RestPath) { botTokenPath =>
           val token = botTokenPath.toString
           entity(as[Update]) { update =>
+            logger.info(update.toJson.compactPrint)
             update.message.location match {
               case Some(location) =>
                 val position = Position(location.latitude, location.longitude)
-                logger.info(update.toJson.compactPrint)
                 nearest(position).onComplete {
                   case Success(result) =>
                     result match {
