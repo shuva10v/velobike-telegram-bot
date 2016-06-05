@@ -60,7 +60,7 @@ trait Service extends Protocols with NearestLocationService {
   private val commandNextGroup = "/next ([0-9])".r
   private val commandLocksGroup = "/locks ([0-9])".r
 
-  private val locationTtl = config.getDuration("location-ttl")
+  private lazy val locationTtl = config.getDuration("location-ttl")
 
 
   private def sendVenueToUser(botToken: String, venue: SendVenue): Unit = {
