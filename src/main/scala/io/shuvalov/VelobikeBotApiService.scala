@@ -171,9 +171,9 @@ trait Service extends Protocols with NearestLocationService {
                   case Some(text) =>
                     val offset = userOffset(userId).get()
                     text match {
-                      case commandNext =>
+                      case `commandNext` =>
                         queryParkingForUser(userId, queryType = QueryType.Locks, offset = offset)
-                      case commandLocks =>
+                      case `commandLocks` =>
                         queryParkingForUser(userId, queryType = QueryType.Locks, offset = offset)
                       case commandNextGroup(n) =>
                         queryParkingForUser(userId, queryType = QueryType.Locks, count = n.toInt, offset = offset)
