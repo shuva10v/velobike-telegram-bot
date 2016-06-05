@@ -64,7 +64,7 @@ trait NearestLocationService extends VelobikeJsonProtocol {
 
   private val MAX_DISTANCE_FROM_PARKING = 1.0
 
-  object NearestQueryType {
+  object QueryType {
 
     sealed trait EnumVal
 
@@ -80,12 +80,12 @@ trait NearestLocationService extends VelobikeJsonProtocol {
     * @param position position of the current user
     * @param rank     rank in the list
     */
-  def nearest(position: Position, rank: Int = 1, queryType: NearestQueryType.EnumVal = NearestQueryType.Bikes):
-  Future[Either[ErrorStatus, Parking]] = {
+  def nearest(position: Position, rank: Int = 1, queryType: QueryType.EnumVal = QueryType.Bikes):
+  Future[Either[ErrorStatus, Seq[Parking]]] = {
     val filter = queryType match {
-      case NearestQueryType.Bikes =>
+      case QueryType.Bikes =>
         parking: Parking => parking.TotalPlaces - parking.FreePlaces > 0
-      case NearestQueryType.Locks =>
+      case QueryType.Locks =>
         parking: Parking => parking.FreePlaces > 0
     }
     parkings().map(parkings => {
@@ -100,11 +100,12 @@ trait NearestLocationService extends VelobikeJsonProtocol {
         logger.error("No parkings available!")
         Left(NoParkingsAvailable)
       } else {
-        val (minDistance, parking) = bestFit.take(rank).last
+        val parkings = bestFit.take(rank)
+        val minDistance = parkings.head._1
         if (minDistance > MAX_DISTANCE_FROM_PARKING) {
           Left(LongDistance)
         } else {
-          Right(parking)
+          Right(parkings.map{_._2})
         }
       }
     })

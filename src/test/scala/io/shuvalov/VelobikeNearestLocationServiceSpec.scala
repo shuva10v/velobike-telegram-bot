@@ -30,17 +30,23 @@ class VelobikeNearestLocationServiceSpec extends FlatSpec with Matchers with Sca
   }
 
   it should "return parking on exact location" in {
-    Await.result(nearest(Position(55.7914268, 37.5905396)), Inf).right.get.Id shouldBe "0415"
+    val parkings = Await.result(nearest(Position(55.7914268, 37.5905396)), Inf).right.get
+    parkings.size shouldBe 1
+    parkings.head.Id shouldBe "0415"
   }
 
   it should "ignore locked parking" in {
     // 0440 is locked
-    Await.result(nearest(Position(55.7804054, 37.6334722)), Inf).right.get.Id shouldBe "0441"
+    val parkings = Await.result(nearest(Position(55.7804054, 37.6334722)), Inf).right.get
+    parkings.size shouldBe 1
+    parkings.head.Id shouldBe "0441"
   }
 
   it should "ignore empty parking" in {
     // 0394 has no available bikes
-    Await.result(nearest(Position(55.6771438, 37.5629419)), Inf).right.get.Id shouldBe "0362"
+    val parkings = Await.result(nearest(Position(55.6771438, 37.5629419)), Inf).right.get
+    parkings.size shouldBe 1
+    parkings.head.Id shouldBe "0362"
   }
 
   it should "calculate distance" in {
@@ -48,16 +54,15 @@ class VelobikeNearestLocationServiceSpec extends FlatSpec with Matchers with Sca
   }
 
   it should "return next best parking" in {
-    Await.result(nearest(Position(55.7914268, 37.5905396), rank = 2), Inf).right.get.Id shouldBe "0408"
-    Await.result(nearest(Position(55.7914268, 37.5905396), rank = 3), Inf).right.get.Id shouldBe "0405"
-    Await.result(nearest(Position(55.7914268, 37.5905396), rank = 4), Inf).right.get.Id shouldBe "0416"
+    val parkings = Await.result(nearest(Position(55.7914268, 37.5905396), rank = 4), Inf).right.get
+    parkings.map{_.Id} shouldBe Seq("0415", "0408", "0405", "0416")
   }
 
   it should "return parking with available locks" in {
     //0032 has no free locks
     Await.result(nearest(Position(55.759865, 37.615807),
-      queryType = NearestQueryType.Locks), Inf).right.get.Id shouldBe "0030"
+      queryType = QueryType.Locks), Inf).right.get.head.Id shouldBe "0030"
     Await.result(nearest(Position(55.6771438, 37.5629419),
-      queryType = NearestQueryType.Locks), Inf).right.get.Id shouldBe "0394"
+      queryType = QueryType.Locks), Inf).right.get.head.Id shouldBe "0394"
   }
 }
