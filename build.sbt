@@ -2,7 +2,7 @@ enablePlugins(JavaAppPackaging)
 
 name := "velobike-bot-api"
 organization := "io.shuvalov"
-version := "1.0"
+version := "1.1"
 scalaVersion := "2.11.8"
 
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
