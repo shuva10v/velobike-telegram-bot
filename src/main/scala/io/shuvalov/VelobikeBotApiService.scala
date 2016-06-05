@@ -1,19 +1,20 @@
 package io.shuvalov
 
-import java.util.concurrent.atomic.AtomicInteger
-
-import akka.actor.ActorSystem
+import akka.actor.{ActorRef, ActorSystem, Props}
 import akka.event.{Logging, LoggingAdapter}
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.server.Directives._
+import akka.pattern.ask
 import akka.stream.{ActorMaterializer, Materializer}
+import akka.util.Timeout
 import com.typesafe.config.{Config, ConfigFactory}
 import spray.json.{DefaultJsonProtocol, _}
 
-import scala.collection.mutable
 import scala.concurrent.{ExecutionContextExecutor, Future}
+import scala.concurrent.duration._
+import scala.language.postfixOps
 import scala.util.{Failure, Success}
 
 case class Location(latitude: Double, longitude: Double)
@@ -47,6 +48,8 @@ trait Service extends Protocols with NearestLocationService {
   implicit def executor: ExecutionContextExecutor
 
   implicit val materializer: Materializer
+
+  implicit val cache: ActorRef
 
   private val messageServerError = "messages.server-error"
   private val messageLongDistance = "messages.long-distance"
@@ -89,26 +92,32 @@ trait Service extends Protocols with NearestLocationService {
 
   val logger: LoggingAdapter
 
-  val userLocations: mutable.Map[Int, (Position, Long)] = mutable.Map.empty
-  val userOffset: mutable.Map[Int, AtomicInteger] = mutable.Map.empty.withDefault(x => new AtomicInteger(0))
-
-  private def queryParkingForUser(userId: Int, count: Int = 1, offset: Int = 0,
-                                  queryType: QueryType.EnumVal = QueryType.Bikes)
+  private def queryParkingForUser(userId: Int, count: Int = 1, offset: Option[Int] = None,
+                                  queryType: QueryType.QueryType = QueryType.Bikes)
                                  (implicit sendText: (String) => Unit,
                                   sendVenue: (SendVenue) => Unit, chatId: Int): Unit = {
-    userLocations.get(userId) match {
-      case Some((position, timestamp)) =>
-        if (System.currentTimeMillis() - timestamp > locationTtl.toMillis) {
-           sendText(messageLocationIsOutdated)
-        } else {
-          queryParking(userId, position, count, offset, queryType)
-        }
-      case None => sendText(messageSendLocationFirst)
+    implicit val timeout = Timeout(5 seconds)
+    val future = cache ? GetSession(userId, queryType)
+    future.onSuccess{ case result: Option[UserSession] =>
+      result match {
+        case Some(session) =>
+          if (System.currentTimeMillis() - session.timestamp > locationTtl.toMillis) {
+            sendText(messageLocationIsOutdated)
+          } else {
+            val currentOffset = offset match {
+              case Some(value) => value
+              case None => session.offset
+            }
+            queryParking(userId, session.position, count, currentOffset, queryType)
+          }
+        case None =>
+          sendText(messageSendLocationFirst)
+      }
     }
   }
 
   private def queryParking(userId: Int, position: Position, count: Int = 1, offset: Int = 0,
-                           queryType: QueryType.EnumVal = QueryType.Bikes)
+                           queryType: QueryType.QueryType = QueryType.Bikes)
                           (implicit sendText: (String) => Unit, sendVenue: (SendVenue) => Unit, chatId: Int): Unit = {
     nearest(position, count + offset, queryType).onComplete {
       case Success(result) =>
@@ -124,7 +133,7 @@ trait Service extends Protocols with NearestLocationService {
             if (window.size == 0) {
               sendText(messageNoParkings)
             } else {
-              userOffset(userId).addAndGet(window.size)
+              cache ? IncrementOffset(userId, window.size)
               for (parking <- window) {
                 val venue = SendVenue(chatId, parking.Position.Lat, parking.Position.Lon,
                   s"${parking.Id} - ${parking.TotalPlaces - parking.FreePlaces}/${parking.TotalPlaces} bikes",
@@ -157,11 +166,8 @@ trait Service extends Protocols with NearestLocationService {
             update.message.location match {
               case Some(location) =>
                 val position = Position(location.latitude, location.longitude)
-                //save user location for session queries
-                userLocations(userId) = (position, System.currentTimeMillis)
-                // reset user offset
-                userOffset(userId).set(0)
-                logger.info(s"Updating user location for ${update.message.from.id}, total ${userLocations.size}")
+
+                cache ! InitUserSession(userId, position)
                 // query nearest parking with bikes available
                 queryParking(userId, position)
                 complete(StatusCodes.OK)
@@ -169,16 +175,15 @@ trait Service extends Protocols with NearestLocationService {
                 logger.warning("Location not found, processing text")
                 update.message.text match {
                   case Some(text) =>
-                    val offset = userOffset(userId).get()
                     text match {
                       case `commandNext` =>
-                        queryParkingForUser(userId, queryType = QueryType.Locks, offset = offset)
+                        queryParkingForUser(userId, queryType = QueryType.Locks)
                       case `commandLocks` =>
-                        queryParkingForUser(userId, queryType = QueryType.Locks, offset = offset)
+                        queryParkingForUser(userId, queryType = QueryType.Locks)
                       case commandNextGroup(n) =>
-                        queryParkingForUser(userId, queryType = QueryType.Locks, count = n.toInt, offset = offset)
+                        queryParkingForUser(userId, queryType = QueryType.Locks, count = n.toInt)
                       case commandLocksGroup(n) =>
-                        queryParkingForUser(userId, queryType = QueryType.Locks, count = n.toInt, offset = offset)
+                        queryParkingForUser(userId, queryType = QueryType.Locks, count = n.toInt)
                       case other =>
                         logger.warning(s"Unsupported command '${other}'")
                         sendText(messageUsage)
@@ -201,6 +206,8 @@ object VelobikeBotApiService extends App with Service {
 
   override val config = ConfigFactory.load()
   override val logger = Logging(system, getClass)
+
+  override implicit val cache = system.actorOf(Props(classOf[UserSessionsCacheActor]))
 
   Http().bindAndHandle(routes, config.getString("http.interface"), config.getInt("http.port"))
 }

@@ -36,6 +36,16 @@ trait VelobikeJsonProtocol extends DefaultJsonProtocol with SprayJsonSupport {
   implicit val parkingsListFormat = jsonFormat1(ParkingsList)
 }
 
+object QueryType {
+
+  trait QueryType
+
+  case object Bikes extends QueryType
+
+  case object Locks extends QueryType
+
+}
+
 /**
   * Calculates nearest available parking. Implementation is not optimal, todos:
   * 1. Cache request for a reasonable time to reduce processing delay
@@ -64,23 +74,13 @@ trait NearestLocationService extends VelobikeJsonProtocol {
 
   private val MAX_DISTANCE_FROM_PARKING = 1.0
 
-  object QueryType {
-
-    sealed trait EnumVal
-
-    case object Bikes extends EnumVal
-
-    case object Locks extends EnumVal
-
-  }
-
   /**
     * Return nearest location from position of parking with available bikes or available locks
     *
     * @param position position of the current user
     * @param rank     rank in the list
     */
-  def nearest(position: Position, rank: Int = 1, queryType: QueryType.EnumVal = QueryType.Bikes):
+  def nearest(position: Position, rank: Int = 1, queryType: QueryType.QueryType = QueryType.Bikes):
   Future[Either[ErrorStatus, Seq[Parking]]] = {
     val filter = queryType match {
       case QueryType.Bikes =>
