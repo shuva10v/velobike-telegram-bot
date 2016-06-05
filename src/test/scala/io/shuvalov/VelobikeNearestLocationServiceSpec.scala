@@ -46,4 +46,18 @@ class VelobikeNearestLocationServiceSpec extends FlatSpec with Matchers with Sca
   it should "calculate distance" in {
     distance(Position(55.6771438, 37.5629419), Position(55.7804054, 37.6334722)) shouldBe 0.01563 +- 1e-4
   }
+
+  it should "return next best parking" in {
+    Await.result(nearest(Position(55.7914268, 37.5905396), rank = 2), Inf).right.get.Id shouldBe "0408"
+    Await.result(nearest(Position(55.7914268, 37.5905396), rank = 3), Inf).right.get.Id shouldBe "0405"
+    Await.result(nearest(Position(55.7914268, 37.5905396), rank = 4), Inf).right.get.Id shouldBe "0416"
+  }
+
+  it should "return parking with available locks" in {
+    //0032 has no free locks
+    Await.result(nearest(Position(55.759865, 37.615807),
+      queryType = NearestQueryType.Locks), Inf).right.get.Id shouldBe "0030"
+    Await.result(nearest(Position(55.6771438, 37.5629419),
+      queryType = NearestQueryType.Locks), Inf).right.get.Id shouldBe "0394"
+  }
 }
