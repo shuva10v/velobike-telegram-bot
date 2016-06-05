@@ -92,27 +92,21 @@ trait Service extends Protocols with NearestLocationService {
 
   val logger: LoggingAdapter
 
-  private def queryParkingForUser(userId: Int, count: Int = 1, offset: Option[Int] = None,
+  private def queryParkingForUser(userId: Int, count: Int = 1,
                                   queryType: QueryType.QueryType = QueryType.Bikes)
                                  (implicit sendText: (String) => Unit,
                                   sendVenue: (SendVenue) => Unit, chatId: Int): Unit = {
     implicit val timeout = Timeout(5 seconds)
     val future = cache ? GetSession(userId, queryType)
-    future.onSuccess{ case result: Option[UserSession] =>
-      result match {
-        case Some(session) =>
-          if (System.currentTimeMillis() - session.timestamp > locationTtl.toMillis) {
-            sendText(messageLocationIsOutdated)
-          } else {
-            val currentOffset = offset match {
-              case Some(value) => value
-              case None => session.offset
-            }
-            queryParking(userId, session.position, count, currentOffset, queryType)
-          }
-        case None =>
-          sendText(messageSendLocationFirst)
-      }
+    future.onSuccess {
+      case Some(session: UserSession) =>
+        if (System.currentTimeMillis() - session.timestamp > locationTtl.toMillis) {
+          sendText(messageLocationIsOutdated)
+        } else {
+          queryParking(userId, session.position, count, session.offset, queryType)
+        }
+      case None =>
+        sendText(messageSendLocationFirst)
     }
   }
 
@@ -177,11 +171,11 @@ trait Service extends Protocols with NearestLocationService {
                   case Some(text) =>
                     text match {
                       case `commandNext` =>
-                        queryParkingForUser(userId, queryType = QueryType.Locks)
+                        queryParkingForUser(userId, queryType = QueryType.Bikes)
                       case `commandLocks` =>
                         queryParkingForUser(userId, queryType = QueryType.Locks)
                       case commandNextGroup(n) =>
-                        queryParkingForUser(userId, queryType = QueryType.Locks, count = n.toInt)
+                        queryParkingForUser(userId, queryType = QueryType.Bikes, count = n.toInt)
                       case commandLocksGroup(n) =>
                         queryParkingForUser(userId, queryType = QueryType.Locks, count = n.toInt)
                       case other =>
