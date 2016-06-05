@@ -24,8 +24,6 @@ case class GetSession(userId: Int, queryType: QueryType)
 
 case class IncrementOffset(userId: Int, value: Int)
 
-case class ResetOffset(userId: Int)
-
 class UserSessionsCacheActor extends Actor with ActorLogging {
   private val cache = mutable.Map.empty[Int, UserSession]
   override def receive: Receive = {
@@ -41,7 +39,5 @@ class UserSessionsCacheActor extends Actor with ActorLogging {
       }
     case IncrementOffset(userId, value) =>
       cache.get(userId).foreach(_.increment(value))
-    case ResetOffset(userId) =>
-      cache.get(userId).foreach(_.reset)
   }
 }

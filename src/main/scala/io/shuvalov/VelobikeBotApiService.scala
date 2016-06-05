@@ -133,7 +133,7 @@ trait Service extends Protocols with NearestLocationService {
             if (window.size == 0) {
               sendText(messageNoParkings)
             } else {
-              cache ? IncrementOffset(userId, window.size)
+              cache ! IncrementOffset(userId, window.size)
               for (parking <- window) {
                 val venue = SendVenue(chatId, parking.Position.Lat, parking.Position.Lon,
                   s"${parking.Id} - ${parking.TotalPlaces - parking.FreePlaces}/${parking.TotalPlaces} bikes",
